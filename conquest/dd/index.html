@@ -113,9 +113,9 @@
                 let iconDiv = document.createElement("div");
                 outerIconDiv.append(iconDiv);
                 iconDiv.className = "iconContainer"
-                iconDiv.innerHTML += "<img class=\"icon-primary\" src=\"dd_rarity_" + disk.rarity.toLowerCase() + ".png\" />";
-                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"dd_type_" + disk.type.toLowerCase() + ".png\" />";
-                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"dd_dots_" + disk.cost.toLowerCase() + ".png\" />";
+                iconDiv.innerHTML += "<img class=\"icon-primary\" src=\"images/dd_rarity_" + disk.rarity.toLowerCase() + ".png\" />";
+                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"images/dd_type_" + disk.type.toLowerCase() + ".png\" />";
+                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"images/dd_dots_" + disk.cost.toLowerCase() + ".png\" />";
 
                 let nameDiv = document.createElement("div");
                 iconCell.append(nameDiv);
@@ -157,6 +157,6 @@
         </div>
     </body>
     <script lang="javascript">
-        fetchJSONFile("dd_data.json", afterFetchData);
+        fetchJSONFile("data.json", afterFetchData);
     </script>
 </html>
