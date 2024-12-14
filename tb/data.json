@@ -11,13 +11,13 @@
                 "title": "Fleet",
                 "team": [ 
                     "Profundity",
-                    "Millenium Falcon",
+                    "Han's Millenium Falcon",
                     "Outrider",
                     "Rebel Y-wing",
                     "Phantom II",
                     "Cassian's U-wing",
                     "Raven's Claw",
-                    "Biggs's X-wing" 
+                    "Biggs Darklighter's X-wing" 
                 ]
             },
             { 
@@ -25,10 +25,10 @@
                 "y": 50,
                 "title": "Jedi vs. LV",
                 "team": [ 
-                    "JML",
-                    "JKL",
-                    "JKCK",
-                    "GMY",
+                    "Jedi Master Luke Skywalker",
+                    "Jedi Knight Luke Skywalker",
+                    "Jedi Knight Cal Kestis",
+                    "Grand Master Yoda",
                     "Shaak Ti"
                 ]
             },
@@ -37,11 +37,11 @@
                 "y": 157,
                 "title": "vs. Clone Cmdr",
                 "team": [ 
-                    "QA",
-                    "POW",
-                    "MQG",
-                    "Padme",
-                    "JKA"
+                    "Queen Amidala",
+                    "Padawan Obi-Wan",
+                    "Master Qui-Gon",
+                    "Padmé Amidala",
+                    "Jedi Knight Anakin"
                 ]
             },
             { 
@@ -49,11 +49,11 @@
                 "y": 283,
                 "title": "vs. Clone Cmdr",
                 "team": [ 
-                    "JMK",
-                    "CAT",
-                    "Snips",
-                    "GK",
-                    "GAS"
+                    "Jedi Master Kenobi",
+                    "Commander Ahsoka Tano",
+                    "Ahsoka Tano (Snips)",
+                    "General Kenobi",
+                    "General Skywalker"
                 ]
             },
             { 
@@ -61,11 +61,11 @@
                 "y": 179,
                 "title": "Mace/Kit vs. Sidius",
                 "team": [ 
-                    "Mace",
-                    "Kit",
-                    "Kyle",
-                    "KAM",
-                    "Beq"
+                    "Mace Windu",
+                    "Kit Fisto",
+                    "Kyle Katarn",
+                    "Ki-Adi-Mundi",
+                    "Kelleran Beq"
                 ]
             }
         ]
@@ -82,7 +82,7 @@
                 "title": "Fleet",
                 "team": [ 
                     "Executor",
-                    "Lando's Falcon",
+                    "Lando's Millenium Falcon",
                     "Hound's Tooth",
                     "Razor Crest",
                     "Xanadu Blood",
@@ -96,7 +96,7 @@
                 "y": 37,
                 "title": "Aphra vs. Imp Offcr",
                 "team": [ 
-                    "Aphra",
+                    "Doctor Aphra",
                     "Darth Vader",
                     "0-0-0",
                     "BT-1",
@@ -109,10 +109,10 @@
                 "title": "vs. Imp Offcr",
                 "team": [ 
                     "Boss Nass",
-                    "Jar Jar",
-                    "Tarpals",
-                    "Phalanx",
-                    "Boomadier"
+                    "Jar Jar Binks",
+                    "Captain Tarpals",
+                    "Gungan Phalanx",
+                    "Gungan Boomadier"
                 ]
             },
             { 
@@ -120,10 +120,10 @@
                 "y": 224,
                 "title": "Jabba vs Qi'ra",
                 "team": [ 
-                    "Jabba",
-                    "Boushh",
-                    "Krrs",
-                    "Skiff Lando",
+                    "Jabba the Hutt",
+                    "Boushh (Leia Organa)",
+                    "Krrsantan",
+                    "Skiff Guard (Lando Calrissian)",
                     "Embo"
                 ]
             },
@@ -133,9 +133,9 @@
                 "title": "Qi'ra vs Veers",
                 "team": [ 
                     "Qi'ra",
-                    "Young Han",
-                    "Dash",
-                    "Vandor Chewie",
+                    "Young Han Solo",
+                    "Dash Rendar",
+                    "Vandor Chewbacca",
                     "Rey"
                 ]
             }
@@ -154,12 +154,12 @@
                 "team": [ 
                     "Executrix",
                     "Scythe",
-                    "Vader",
-                    "Mk 6",
+                    "TIE Advanced x1",
+                    "Mk VI Interceptor",
                     "TIE Defender",
-                    "TIE Interceptor",
-                    "Imperial Shuttle",
-                    "TIE Fighter"
+                    "TIE/IN Interceptor",
+                    "Emperor's Shuttle",
+                    "Imperial TIE Fighter"
                 ]
             },
             { 
@@ -175,11 +175,11 @@
                 "y": 134,
                 "title": "vs. Geos",
                 "team": [ 
-                    "3rd",
-                    "GI",
+                    "Reva",
+                    "Grand Inquisitor",
                     "Marrok",
-                    "7th",
-                    "5th"
+                    "Seventh Sister",
+                    "Fifth Brother"
                 ]
             },
             { 
@@ -187,10 +187,10 @@
                 "y": 364,
                 "title": "vs. Nute",
                 "team": [ 
-                    "SLKR",
-                    "Hux",
-                    "FOST",
-                    "KRU",
+                    "Supreme Leader Kylo Ren",
+                    "General Hux",
+                    "First Order Stormtrooper",
+                    "Kylo Ren (Unmasked)",
                     "Sith Trooper"
                 ]
             },
@@ -199,11 +199,11 @@
                 "y": 337,
                 "title": "vs. Wat",
                 "team": [ 
-                    "SEE",
-                    "Malak",
-                    "Malgus",
-                    "Wat",
-                    "Nihilus"
+                    "Sith Eternal Emperor",
+                    "Darth Malak",
+                    "Darth Malgus",
+                    "Wat Tambor",
+                    "Darth Nihilus"
                 ]
             }
         ]
@@ -220,13 +220,13 @@
                 "title": "Fleet",
                 "team": [ 
                     "Profundity",
-                    "Millenium Falcon",
+                    "Han's Millenium Falcon",
                     "Outrider",
                     "Rebel Y-wing",
                     "Phantom II",
                     "Cassian's U-wing",
                     "Raven's Claw",
-                    "Biggs's X-wing" 
+                    "Biggs Darklighter's X-wing" 
                 ]
             },
             { 
@@ -234,10 +234,10 @@
                 "y": 21,
                 "title": "Jedi vs. Ninth",
                 "team": [ 
-                    "JKL",
-                    "JML",
-                    "Kyle",
-                    "GMY",
+                    "Jedi Knight Luke Skywalker",
+                    "Jedi Master Luke Skywalker",
+                    "Kyle Katarn",
+                    "Grand Master Yoda",
                     "Shaak Ti"
                 ]
             },
@@ -246,11 +246,11 @@
                 "y": 44,
                 "title": "vs. Crosshair",
                 "team": [ 
-                    "Raddus",
-                    "Jyn",
-                    "Cassian",
+                    "Admiral Raddus",
+                    "Jyn Erso",
+                    "Cassian Andor",
                     "K-2SO",
-                    "Pathfinder"
+                    "Scarif Rebel Pathfinder"
                 ]
             },
             { 
@@ -258,11 +258,11 @@
                 "y": 96,
                 "title": "vs. Second Sister",
                 "team": [ 
-                    "JMK",
-                    "CAT",
-                    "Snips",
-                    "GK",
-                    "GAS"
+                    "Jedi Master Kenobi",
+                    "Commander Ahsoka Tano",
+                    "Ahsoka Tano (Snips)",
+                    "General Kenobi",
+                    "General Skywalker"
                 ]
             },
             { 
@@ -315,9 +315,9 @@
                 "team": [ 
                     "Leia Organa",
                     "Captain Rex",
-                    "Drogan",
-                    "Chewpio",
-                    "Kanan"
+                    "Captain Drogan",
+                    "Threepio & Chewie",
+                    "Kanan Jarrus"
                 ]
             },
             { 
@@ -325,11 +325,11 @@
                 "y": 320,
                 "title": "Jabba",
                 "team": [ 
-                    "Jabba",
-                    "Boushh",
-                    "Krrs",
-                    "Embo",
-                    "Skiff Lando"
+                    "Jabba the Hutt",
+                    "Boushh (Leia Organa)",
+                    "Krrsantan",
+                    "Skiff Guard (Lando Calrissian)",
+                    "Embo"
                 ]
             },
             { 
@@ -337,10 +337,10 @@
                 "y": 434,
                 "title": "Hondo",
                 "team": [ 
-                    "RJT",
-                    "Hondo",
+                    "Rey (Jedi Training)",
+                    "Hondo Ohnaka",
                     "Rey",
-                    "R2",
+                    "R2-D2",
                     "BB-8"
                 ]
             }
@@ -378,10 +378,10 @@
                 "title": "vs. Reek",
                 "team": [ 
                     "Reva",
-                    "GI",
-                    "5th",
-                    "7th",
-                    "9th"
+                    "Grand Inquisitor",
+                    "Fifth Brother",
+                    "Seventh Sister",
+                    "Ninth Sister"
                 ]
             },
             { 
@@ -389,9 +389,9 @@
                 "y": 240,
                 "title": "Geos vs. Phoenix",
                 "team": [ 
-                    "GBA",
-                    "Geo Soldier",
-                    "Geo Spy",
+                    "Geonosian Brood Alpha",
+                    "Geonosian Soldier",
+                    "Geonosian Spy",
                     "Sun Fac",
                     "Poggle the Lesser"
                 ]
@@ -401,10 +401,10 @@
                 "y": 411,
                 "title": "vs. Acklay",
                 "team": [ 
-                    "SLKR",
-                    "Hux",
-                    "FOST",
-                    "KRU",
+                    "Supreme Leader Kylo Ren",
+                    "General Hux",
+                    "First Order Stormtrooper",
+                    "Kylo Ren (Unmasked)",
                     "Sith Trooper"
                 ]
             }
@@ -422,13 +422,13 @@
                 "title": "Fleet",
                 "team": [ 
                     "Profundity",
-                    "Millenium Falcon",
+                    "Han's Millenium Falcon",
                     "Outrider",
                     "Rebel Y-wing",
                     "Phantom II",
                     "Cassian's U-wing",
                     "Raven's Claw",
-                    "Biggs's X-wing" 
+                    "Biggs Darklighter's X-wing" 
                 ]
             },
             { 
@@ -436,10 +436,10 @@
                 "y": 34,
                 "title": "Wookiees",
                 "team": [ 
-                    "Tarful",
-                    "Chewy",
-                    "Vandor Chewy",
-                    "Veteren Chewy",
+                    "Tarfful",
+                    "Chewbacca",
+                    "Vandor Chewbacca",
+                    "Veteren Smuggler Chewbacca",
                     "Zaalbar"
                 ]
             },
@@ -448,10 +448,10 @@
                 "y": 64,
                 "title": "vs. Mara Jade",
                 "team": [ 
-                    "JKL",
-                    "JML",
-                    "Kyle",
-                    "GMY",
+                    "Jedi Knight Luke Skywalker",
+                    "Jedi Master Luke Skywalker",
+                    "Kyle Katarn",
+                    "Grand Master Yoda",
                     "Shaak Ti"
                 ]
             },
@@ -472,11 +472,11 @@
                 "y": 376,
                 "title": "vs. Imp Offcr",
                 "team": [ 
-                    "JMK",
-                    "CAT",
-                    "Snips",
-                    "GK",
-                    "GAS"
+                    "Jedi Master Kenobi",
+                    "Commander Ahsoka Tano",
+                    "Ahsoka Tano (Snips)",
+                    "General Kenobi",
+                    "General Skywalker"
                 ]
             }
         ]
@@ -506,10 +506,10 @@
                 "y": 17,
                 "title": "vs. Sandtrooper",
                 "team": [ 
-                    "LO",
-                    "Drogan",
-                    "Chewpio",
-                    "Kanan",
+                    "Leia Organa",
+                    "Captain Drogan",
+                    "Threepio & Chewy",
+                    "Kanan Jarrus",
                     "Captain Rex"
                 ]
             },
@@ -518,11 +518,11 @@
                 "y": 29,
                 "title": "Jabba",
                 "team": [ 
-                    "Jabba",
-                    "Boushh",
-                    "Krrs",
-                    "Embo",
-                    "Skiff Lando"
+                    "Jabba the Hutt",
+                    "Boushh (Leia Organa)",
+                    "Krrsantan",
+                    "Skiff Guard (Lando Calrissian)",
+                    "Embo"
                 ]
             },
             { 
@@ -530,10 +530,10 @@
                 "y": 279,
                 "title": "Fennec",
                 "team": [ 
-                    "RJT",
-                    "Fennec",
+                    "Rey (Jedi Training)",
+                    "Fennec Shand",
                     "Rey",
-                    "R2",
+                    "R2-D2",
                     "BB-8"
                 ]
             },
@@ -542,9 +542,9 @@
                 "y": 345,
                 "title": "BKM Mandos",
                 "team": [ 
-                    "BKM",
-                    "BAM",
-                    "IG-12"
+                    "Bo-Katan (Mand'alor)",
+                    "The Mandalorian (Beskar Armor)",
+                    "IG-12 & Grogu"
                 ]
             },
             { 
@@ -552,10 +552,10 @@
                 "y": 322,
                 "title": "Reva Shards",
                 "team": [ 
-                    "GI",
+                    "Grand Inquisitor",
                     "Reva",
-                    "5th",
-                    "7th",
+                    "Fifth Brother",
+                    "Seventh Sister",
                     "Marrok"
                 ]
             }
@@ -584,11 +584,11 @@
                 "y": 156,
                 "title": "vs. Nightsisters",
                 "team": [ 
-                    "Traya",
-                    "SEE",
-                    "Malak",
-                    "Malgus",
-                    "Nihilus"
+                    "Darth Traya",
+                    "Sith Eternal Emperor",
+                    "Darth Malak",
+                    "Darth Malgus",
+                    "Darth Nihilus"
                 ]
             },
             { 
@@ -599,8 +599,8 @@
                     "Lord Vader",
                     "Royal Guard",
                     "Darth Vader",
-                    "9th",
-                    "DTMG?"
+                    "Ninth Sister",
+                    "Dark Trooper Moff Gideon?"
                 ]
             },
             { 
@@ -608,10 +608,10 @@
                 "y": 262,
                 "title": "vs. Nightsisters",
                 "team": [ 
-                    "SLKR",
-                    "Hux",
-                    "FOST",
-                    "KRU",
+                    "Supreme Leader Kylo Ren",
+                    "General Hux",
+                    "First Order Stormtrooper",
+                    "Kylo Ren (Unmasked)",
                     "Sith Trooper"
                 ]
             },
@@ -621,10 +621,10 @@
                 "title": "Nightsisters SM",
                 "team": [ 
                     "Mother Talzin?",
-                    "Zombie?",
+                    "Nightsister Zombie?",
                     "Merrin?",
-                    "Daka?",
-                    "Ventress?"
+                    "Old Daka?",
+                    "Asaaj Ventress?"
                 ]
             }
         ]
@@ -641,13 +641,13 @@
                 "title": "Fleet",
                 "team": [ 
                     "Negotiator",
-                    "JKA",
+                    "Anakin's Eta-2 Starfighter",
                     "Republic Y-wing",
-                    "Fives",
-                    "Snips",
-                    "Rex",
-                    "Plo",
-                    "Clone Sarg" 
+                    "Umbaran Starfighter",
+                    "Ahsoka Tano's Jedi Starfigher",
+                    "Rex's ARC-170",
+                    "Plo Koon's Jedi Starfigher",
+                    "Clone Sergeant's ARC-170" 
                 ]
             },
             { 
@@ -656,7 +656,7 @@
                 "title": "UFU",
                 "team": [ 
                     "Rey",
-                    "Fulcrum",
+                    "Ahsoka Tano (Fulcrum)",
                     "Ben Solo",
                     "Cal Kestis",
                     "Cere Junda"
@@ -680,21 +680,21 @@
                 "title": "vs. Tomb Guardian",
                 "team": [ 
                     "Boss Nass",
-                    "Jar Jar",
-                    "Tarpals",
-                    "Boomadier",
-                    "Phalanx"
+                    "Jar Jar Binks",
+                    "Captain Tarpals",
+                    "Gungan Phalanx",
+                    "Gungan Boomadier"
                 ]
             },
             { 
                 "x": 187,
                 "y": 410,
-                "title": "JKCK",
+                "title": "Jedi Knight Cal Kestis",
                 "team": [ 
-                    "JKCK",
-                    "GMK",
-                    "KAM",
-                    "Bastila",
+                    "Jedi Knight Cal Kestis",
+                    "Grand Master Yoda",
+                    "Ki-Adi-Mundi",
+                    "Bastila Shan",
                     "Shaak Ti"
                 ]
             }
