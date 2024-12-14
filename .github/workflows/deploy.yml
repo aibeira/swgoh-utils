@@ -1,0 +1,44 @@
+name: deploy to server
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    # - name: Setup Node.js
+    #   uses: actions/setup-node@v2
+    #   with:
+    #     node-version: '16'
+
+    # - name: Install dependencies
+    #   run: npm install
+
+    # - name: Build
+    #   run: npm run build
+
+    - name: Add SSH key
+      env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      run: |
+          mkdir -p /home/runner/.ssh
+          ssh-keyscan swgoh.aibeira.com >> /home/runner/.ssh/known_hosts
+          echo "${{ secrets.UTILS_1_DEPLOYMENT_KEY }}" > /home/runner/.ssh/github_actions
+          chmod 600 /home/runner/.ssh/github_actions
+          ssh-agent -a $SSH_AUTH_SOCK
+          ssh-add /home/runner/.ssh/github_actions
+
+    - name: Deploy
+      env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      run: |
+        scp -r conquest root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
+        scp -r tb root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
+        scp -r index.html root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
+        ssh root@swgoh.aibeira.com "chown -R www-data:www-data /var/www/swgoh/www-root/utils"
