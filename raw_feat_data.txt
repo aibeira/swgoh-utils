@@ -1,0 +1,50 @@
+Complete	Sector	Kind	Feat	Reward
+1	Glbl	Global	Complete a battle with Deployable Cooling Systems active (Complete the "For the Republic" feat or purchase the Conquest Pass+ to get Deployable Cooling Systems consumables)	15
+0	Glbl	Global	Win 3 battles with Captain Drogan, Captain Han Solo, Captain Phasma, Captain Rex, and Captain Tarpals in your squad	0
+1	Glbl	Global	Defeat at least 250 enemies on the golden Challenge Path	15
+1	Glbl	Global	Win at least 15 battles with both Marrok and Shin Hati in your squad	15
+1	Glbl	Global	Attempt to inflict Critical Chance Down 100 times  - All chars that give Critical Chance Down	15
+1	Glbl	Global	Win 15 battles with a full squad of Dark Side Unaligned Force Users	15
+1	Glbl	Global	Win at least 15 battles with a full squad of Nightsisters	1
+1	Glbl	Global	Remove Turn Meter 60 times with War of Attrition (Complete the "Witches of Dathomir" feat or purchase the Conquest Pass+ to get the War of Attrition Data Disk)	15
+1	Glbl	Global	Win 15 battles with a full squad of Galactic Republic	1
+0	1	Sector	Win 10 battles with Morgan Elsbeth surviving	5
+1	1	Sector	Attempt to inflict Critical Damage Down 50 times  - All chars that give Critical Damage Down	5
+1	1	Sector	Win 10 battles with a full squad of Mercenary units	5
+1	1	Sector	Attempt to inflict or gain Blight 40 times  - All chars that give or gain Blight	5
+1	1	Mini-Boss	Defeat an enemy with Death Trooper (Peridea)	2
+1	1	Mini-Boss	Win without using any Attacker units in your squad	2
+1	1	Boss	Win with Luthen Rael in your squad	3
+1	1	Boss	Win with Marrok surviving	3
+0	2	Sector	Win 10 battles with Great Mothers surviving	5
+1	2	Sector	Gain Potency Up 50 times  - All chars that give Potency Up	5
+1	2	Sector	Win 10 battles with a full Squad of Unaligned Force Users	5
+1	2	Sector	Attempt to inflict Armor Shred 30 times  - All chars that give Armor Shred	5
+1	2	Mini-Boss	Defeat an enemy with Shin Hati	2
+1	2	Mini-Boss	Win with a full squad of Nightsisters	2
+1	2	Boss	Defeat an enemy with Ezra (Exile)	3
+1	2	Boss	Win with a full squad of Mercenary units	3
+1	3	Sector	Win 10 battles without using a Leader in the leader slot	10
+1	3	Sector	Win 10 battles with Death Trooper (Peridea) surviving	10
+1	3	Sector	Attempt to inflict Accuracy Down 50 times  - All chars that give Accuracy Down	10
+1	3	Sector	Attempt to inflict Stun 50 times  - All chars that give Stun	10
+1	3	Mini-Boss	Win with Morgan Elsbeth surviving	2
+1	3	Mini-Boss	Defeat an enemy with Mercenary units	2
+1	3	Boss	Win with Padawan Sabine Wren in your squad	4
+1	3	Boss	Win with only Dark Side characters	4
+1	4	Sector	Attempt to inflict Speed Down 50 times  - All chars that give Speed Down	10
+1	4	Sector	Win 10 battles with Night Trooper and Captain Enoch in your squad	10
+1	4	Sector	Win 10 battles with Shin Hati surviving	10
+1	4	Sector	Win at least 10 battles without losing any units	10
+1	4	Mini-Boss	Win without using any Jedi, Sith, or Unaligned Force Users in your squad	3
+1	4	Mini-Boss	Defeat an enemy with any Kylo Ren	3
+1	4	Boss	Win with Huyang surviving	4
+1	4	Boss	Win with a full squad of Unaligned Force Users	4
+0	5	Sector	Win 10 battles with a full squad of Imperial Remnants	15
+1	5	Sector	Win 10 battles with Morgan Elsbeth and Great Mothers surviving	15
+1	5	Sector	Gain Critical Damage Up 50 times  - All chars that give Critical Damage Up	15
+1	5	Sector	Evade at least 100 attacks in battles you won	15
+0	5	Mini-Boss	Win with Shin Hati surviving	3
+1	5	Mini-Boss	Win without using any Attacker units in your squad	3
+0	5	Boss	Win with Baylan Skoll in your squad	5
+1	5	Boss	Win with only Light Side characters	5

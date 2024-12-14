@@ -1,0 +1,394 @@
+[
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Complete a battle with Deployable Cooling Systems active (Complete the \"For the Republic\" feat or purchase the Conquest Pass+ to get Deployable Cooling Systems consumables)",
+        "summary": "Deployable Cooling Systems",
+        "reward": 15
+    },
+    {
+        "completed": 0,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Win 3 battles with Captain Drogan, Captain Han Solo, Captain Phasma, Captain Rex, and Captain Tarpals in your squad",
+        "summary": "3x win w/ 5 Captains",
+        "reward": 0
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Defeat at least 250 enemies on the golden Challenge Path",
+        "summary": "250 Challenge defeats",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Win at least 15 battles with both Marrok and Shin Hati in your squad",
+        "summary": "15x win w/ Marrok & Shin",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Attempt to inflict Critical Chance Down 100 times",
+        "summary": "100x CC down",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Win 15 battles with a full squad of Dark Side Unaligned Force Users",
+        "summary": "15x win w/ DS UFU",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Win at least 15 battles with a full squad of Nightsisters",
+        "summary": "15x win w/ NS",
+        "reward": 1
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Remove Turn Meter 60 times with War of Attrition (Complete the \"Witches of Dathomir\" feat or purchase the Conquest Pass+ to get the War of Attrition Data Disk)",
+        "summary": "60x TM remove /w War of Attrition",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "Glbl",
+        "kind": "Global",
+        "description": "Win 15 battles with a full squad of Galactic Republic",
+        "summary": "15x win w/ GR",
+        "reward": 1
+    },
+    {
+        "completed": 0,
+        "sector": "1",
+        "kind": "Sector",
+        "description": "Win 10 battles with Morgan Elsbeth surviving",
+        "summary": "10x win w/ Morgan",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Sector",
+        "description": "Attempt to inflict Critical Damage Down 50 times",
+        "summary": "50x CD down",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Sector",
+        "description": "Win 10 battles with a full squad of Mercenary units",
+        "summary": "10x win w/ Mercs",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Sector",
+        "description": "Attempt to inflict or gain Blight 40 times",
+        "summary": "40x blight",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Mini-Boss",
+        "description": "Defeat an enemy with Death Trooper (Peridea)",
+        "summary": "Defeat w/ DTP",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Mini-Boss",
+        "description": "Win without using any Attacker units in your squad",
+        "summary": "Win w/o attacker",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Boss",
+        "description": "Win with Luthen Rael in your squad",
+        "summary": "Win w/ Luthen",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "1",
+        "kind": "Boss",
+        "description": "Win with Marrok surviving",
+        "summary": "Win w/ Marrok survive",
+        "reward": 3
+    },
+    {
+        "completed": 0,
+        "sector": "2",
+        "kind": "Sector",
+        "description": "Win 10 battles with Great Mothers surviving",
+        "summary": "10x win w/ GM survive",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Sector",
+        "description": "Gain Potency Up 50 times",
+        "summary": "50x Potency Up",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Sector",
+        "description": "Win 10 battles with a full Squad of Unaligned Force Users",
+        "summary": "10x win w/ UFU",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Sector",
+        "description": "Attempt to inflict Armor Shred 30 times",
+        "summary": "30x Armor Shred",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Mini-Boss",
+        "description": "Defeat an enemy with Shin Hati",
+        "summary": "Defeat w/ Shin",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Mini-Boss",
+        "description": "Win with a full squad of Nightsisters",
+        "summary": "Win w/ NS",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Boss",
+        "description": "Defeat an enemy with Ezra (Exile)",
+        "summary": "Defeat w/ Ezra (Exile)",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "2",
+        "kind": "Boss",
+        "description": "Win with a full squad of Mercenary units",
+        "summary": "Win w/ Mercs",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Sector",
+        "description": "Win 10 battles without using a Leader in the leader slot",
+        "summary": "10x wins w/o leader",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Sector",
+        "description": "Win 10 battles with Death Trooper (Peridea) surviving",
+        "summary": "10x wins w/ DTP survive",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Sector",
+        "description": "Attempt to inflict Accuracy Down 50 times",
+        "summary": "50x Acc Dwn",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Sector",
+        "description": "Attempt to inflict Stun 50 times",
+        "summary": "50x stun",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Mini-Boss",
+        "description": "Win with Morgan Elsbeth surviving",
+        "summary": "Win w/ Morgan survive",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Mini-Boss",
+        "description": "Defeat an enemy with Mercenary units",
+        "summary": "Defeat w/ Merc",
+        "reward": 2
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Boss",
+        "description": "Win with Padawan Sabine Wren in your squad",
+        "summary": "Win w/ Padawan Sabine",
+        "reward": 4
+    },
+    {
+        "completed": 1,
+        "sector": "3",
+        "kind": "Boss",
+        "description": "Win with only Dark Side characters",
+        "summary": "Win w/ only DS",
+        "reward": 4
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Sector",
+        "description": "Attempt to inflict Speed Down 50 times",
+        "summary": "50x speed down",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Sector",
+        "description": "Win 10 battles with Night Trooper and Captain Enoch in your squad",
+        "summary": "10x win w/ NT & Enoch",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Sector",
+        "description": "Win 10 battles with Shin Hati surviving",
+        "summary": "10x win w/ Shin survive",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Sector",
+        "description": "Win at least 10 battles without losing any units",
+        "summary": "10x win w/o losing unit",
+        "reward": 10
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Mini-Boss",
+        "description": "Win without using any Jedi, Sith, or Unaligned Force Users in your squad",
+        "summary": "Win w/o Jedi, Sith, UFU",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Mini-Boss",
+        "description": "Defeat an enemy with any Kylo Ren",
+        "summary": "Defeat w/ any Kylo",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Boss",
+        "description": "Win with Huyang surviving",
+        "summary": "Win w/ Huyang survive",
+        "reward": 4
+    },
+    {
+        "completed": 1,
+        "sector": "4",
+        "kind": "Boss",
+        "description": "Win with a full squad of Unaligned Force Users",
+        "summary": "Win w/ all UFU",
+        "reward": 4
+    },
+    {
+        "completed": 0,
+        "sector": "5",
+        "kind": "Sector",
+        "description": "Win 10 battles with a full squad of Imperial Remnants",
+        "summary": "10x win w/ all Imp Rem",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "5",
+        "kind": "Sector",
+        "description": "Win 10 battles with Morgan Elsbeth and Great Mothers surviving",
+        "summary": "10x win w/ Morgan and GM",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "5",
+        "kind": "Sector",
+        "description": "Gain Critical Damage Up 50 times",
+        "summary": "50x CD Up",
+        "reward": 15
+    },
+    {
+        "completed": 1,
+        "sector": "5",
+        "kind": "Sector",
+        "description": "Evade at least 100 attacks in battles you won",
+        "summary": "100x evade while winning",
+        "reward": 15
+    },
+    {
+        "completed": 0,
+        "sector": "5",
+        "kind": "Mini-Boss",
+        "description": "Win with Shin Hati surviving",
+        "summary": "Win w/ Shin survive",
+        "reward": 3
+    },
+    {
+        "completed": 1,
+        "sector": "5",
+        "kind": "Mini-Boss",
+        "description": "Win without using any Attacker units in your squad",
+        "summary": "Win w/o attacker",
+        "reward": 3
+    },
+    {
+        "completed": 0,
+        "sector": "5",
+        "kind": "Boss",
+        "description": "Win with Baylan Skoll in your squad",
+        "summary": "Win w/ Baylan",
+        "reward": 5
+    },
+    {
+        "completed": 1,
+        "sector": "5",
+        "kind": "Boss",
+        "description": "Win with only Light Side characters",
+        "summary": "Win w/ only LS",
+        "reward": 5
+    }
+]

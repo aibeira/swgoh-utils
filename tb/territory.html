@@ -1,0 +1,171 @@
+<html>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        div.popUpContainer {
+            float: left;
+            position: fixed;
+            display: none;
+            z-index: 3;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            padding: 1em;
+        }
+        div.titleRow {
+            clear: both;
+        }
+        div.displayRow {
+            clear: both;
+        }
+        div.closeDiv, div.missionTitleDiv {
+            margin-bottom: 0.5em;
+        }
+        div.labelDiv {
+            float: left;
+            position: fixed;
+            z-index: 2;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+        }
+    </style>
+    <script lang="javascript">
+        let plan = undefined;
+        let day = undefined;
+        let territory = undefined;
+
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function() {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        var data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data);
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send(); 
+        }
+
+        function closeAllTeams() {
+            for (let mission of plan.missions) {
+                let container = document.getElementById(mission.id);
+                container.style.display = "none";
+            }
+        }
+
+        function displayTeam(missionId) {
+            closeAllTeams();
+            let container = document.getElementById(missionId);
+            container.style.display = "block";
+        }
+
+        function loadData() {
+            let AREA_WIDTH = 100;
+            let AREA_HEIGHT = 100;
+            let header = document.getElementById("title");
+            let mapContainer = document.getElementById("mapContainer");
+            header.innerHTML = `Day ${day} ${territory} - ${plan.planet}`;
+            let map = document.createElement("map");
+            map.name = "map";
+            mapContainer.prepend(map);
+            let image = document.createElement("img");
+            image.src = "maps/" + plan.image;
+            image.useMap = "#" + map.name;
+            image.onclick = () => { closeAllTeams(); };
+            mapContainer.prepend(image);
+            let missionList = document.createElement("ul");
+            missionList.className = "missionList";
+            mapContainer.append(missionList);
+            let idx = 0;
+            for (let mission of plan.missions) {
+                mission.id = "" + (idx++);
+                let ae = document.createElement("area");
+                let coords = `${mission.x},${mission.y},${mission.x + AREA_WIDTH},${mission.y + AREA_HEIGHT}`;
+                ae.coords = coords;
+                ae.shape = "rect";
+                ae.href = "javascript:displayTeam('" + mission.id + "')";
+                ae.alt = mission.title;
+                map.append(ae);
+                let popUpContainer = document.createElement("div");
+                let titleRow = document.createElement("div");
+                let displayRow = document.createElement("div");
+                let missionTitleDiv = document.createElement("div");
+                missionTitleDiv.className = "missionTitleDiv";
+                let closeDiv = document.createElement("div");
+                closeDiv.className = "closeDiv";
+                titleRow.append(missionTitleDiv);
+                titleRow.append(closeDiv);
+                titleRow.className = "titleRow";
+                displayRow.className = "displayRow";
+                missionTitleDiv.style.float = "left";
+                missionTitleDiv.style.position = "relative";
+                missionTitleDiv.innerText = mission.title;
+                closeDiv.style.float = "right";
+                closeDiv.style.position = "relative";
+                let button = document.createElement("button");
+                button.innerHTML = "X";
+                button.onclick = () => { closeAllTeams(); };
+                closeDiv.append(button);
+                let teamList = document.createElement("ul");
+                displayRow.append(document.createElement("hr"));
+                displayRow.append(teamList);
+                for (unit of mission.team) {
+                    let u = document.createElement("li");
+                    teamList.append(u);
+                    u.innerText = unit;
+                }
+                popUpContainer.append(titleRow);
+                popUpContainer.append(displayRow);
+                popUpContainer.className = "popUpContainer";
+                popUpContainer.id = mission.id;
+                popUpContainer.style.left = image.x + mission.x;
+                popUpContainer.style.top = image.y + mission.y;
+                mapContainer.prepend(popUpContainer);
+
+                let labelDiv = document.createElement("div");
+                labelDiv.className = "labelDiv";
+                labelDiv.innerText = mission.title;
+                labelDiv.style.left = image.x + mission.x - 25;
+                labelDiv.style.top = image.y + mission.y + AREA_HEIGHT;
+                labelDiv.style.width = AREA_WIDTH + 50;
+
+                mapContainer.prepend(labelDiv);
+
+                let missionLI = document.createElement("li");
+                missionLI.innerHTML = "<b>" + mission.title + "</b> - " + mission.team.join(", ");
+                missionList.append(missionLI);
+            }
+        }
+    </script>
+    <body>
+        <h2><a href="index.html">&lt;</a>&nbsp;&nbsp;&nbsp;<span id="title"></span></h2>
+        <hr>
+        <div id="mapContainer"></div>
+    </body>
+    <script lang="javascript">
+        fetchJSONFile("data.json", d => {
+            let data = d;
+            const params = new Proxy(new URLSearchParams(window.location.search), {
+                get: (searchParams, prop) => searchParams.get(prop),
+            });
+            day = params.d;
+            territory = params.t;
+            let matching = data.filter(d => d.day === day && d.territory === territory);
+            if (!matching || matching.length < 1) {
+                console.log(`day = ${day}; territory = ${territory}`);
+                alert("no match");
+                return
+            }
+            plan = matching[0];
+
+            loadData();
+        });
+    </script>
+</html>

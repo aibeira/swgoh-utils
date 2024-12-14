@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>Data Disks</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10pt;
+            }
+            .iconContainer {
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+            .nameContainer {
+                position: relative;
+                float: left;
+                padding-left: .25em;
+                padding-top: .15em;
+            }
+            .icon-primary, .icon-overlay {
+                top: 0;
+                left: 0;
+                width: 20px;
+            }
+            .icon-primary {
+                position: relative;
+            }
+            .icon-overlay {
+                position: absolute;
+            }
+            .nameCell {
+                white-space: nowrap;
+                width: 16em;
+            }
+            .outerIconDiv {
+                float: left;
+                width: 20px;
+            }
+            table {
+                border-spacing: 0;
+                border: 1px solid black;
+            }
+            table td, table th {
+                border: 1px solid black;
+            }
+            table th {
+                background-color: lightgray;
+            }
+            .not-visible {
+                display: none;
+            }
+            td.description {
+                /* font-size: xx-small; */
+            }
+        </style>
+    </head>
+    <script lang="javascript">
+        let disks = [];
+
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function() {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        var data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data);
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send(); 
+        }
+
+        function getRarityValue(rarityName) {
+            switch (rarityName.toLowerCase()) {
+                case "common":
+                    return 0;
+                case "rare":
+                    return 1;
+                case "epic":
+                    return 2;
+                case "legendary":
+                    return 3;
+            }
+        }
+        function afterFetchData(data) {
+            disks = data;
+            disks.sort((o1, o2) => {
+                if (o1.equippedStatus == o2.equippedStatus) {
+                    if (o1.name == o2.name) {
+                        return getRarityValue(o1.rarity) < getRarityValue(o2.rarity) ? 1 : -1;
+                    } else {
+                        return o1.name < o2.name ? -1 : 1;
+                    }
+                } else {
+                    return o1.equippedStatus < o2.equippedStatus ? -1 : 1;
+                }
+            });
+            let tBody = document.getElementById("ddList")
+            disks.forEach(disk => {
+                let row = document.createElement("tr");
+                tBody.append(row);
+                let equippedCell = document.createElement("td");
+                row.append(equippedCell);
+                equippedCell.innerHTML = (disk.equippedStatus.toLowerCase() == "equipped" ? "&check;" : "");
+
+                let iconCell = document.createElement("td");
+                row.append(iconCell);
+                iconCell.className = "nameCell"
+                let outerIconDiv = document.createElement("div");
+                iconCell.append(outerIconDiv);
+                outerIconDiv.className = "outerIconDiv";
+                let iconDiv = document.createElement("div");
+                outerIconDiv.append(iconDiv);
+                iconDiv.className = "iconContainer"
+                iconDiv.innerHTML += "<img class=\"icon-primary\" src=\"dd_rarity_" + disk.rarity.toLowerCase() + ".png\" />";
+                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"dd_type_" + disk.type.toLowerCase() + ".png\" />";
+                iconDiv.innerHTML += "<img class=\"icon-overlay\" src=\"dd_dots_" + disk.cost.toLowerCase() + ".png\" />";
+
+                let nameDiv = document.createElement("div");
+                iconCell.append(nameDiv);
+                nameDiv.className = "nameContainer"
+                nameDiv.innerHTML = disk.name;
+
+                let descriptionCell = document.createElement("td");
+                row.append(descriptionCell);
+                descriptionCell.className = "description not-visible";
+                descriptionCell.innerHTML = disk.description;
+            });
+        }
+
+        function displayDescriptions() {
+            let elements = document.getElementsByClassName("description");
+            for (let element of elements) {
+                element.className = "description";
+            }
+        }
+    </script>
+    <body>
+        <h2>Data Disks</h2>
+        <div>
+            <a href="index.html">( back )</a>
+        </div>
+        <div style="padding-top: 1em;">
+            <table>
+                <header>
+                    <th>Used</th>
+                    <th>Name</th>
+                    <th class="description not-visible">Description</th>
+                </header>
+                <tbody id="ddList">
+                </tbody>
+            </table>
+            <div style="padding: 1em;">
+                <button onclick="displayDescriptions()">Display Descriptions</button>
+            </div>
+        </div>
+    </body>
+    <script lang="javascript">
+        fetchJSONFile("dd_data.json", afterFetchData);
+    </script>
+</html>

@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>Feats</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10pt;
+            }
+            table {
+                border-spacing: 0;
+                border: 1px solid black;
+            }
+            table td, table th {
+                border: 1px solid black;
+            }
+            table th {
+                background-color: fff1e6;
+            }
+            .not-visible {
+                display: none;
+            }
+
+            tr.row_glbl {
+                background-color: #797d62;
+            }
+            tr.row_1 {
+                background-color: #9b9b7a;
+            }
+            tr.row_2 {
+                background-color: #d9ae94;
+            }
+            tr.row_3 {
+                background-color: #f1dca7;
+            }
+            tr.row_4 {
+                background-color: #d08c60;
+            }
+            tr.row_5 {
+                background-color: #997b66;
+            }
+        </style>
+    </head>
+    <script lang="javascript">
+        let feats = [];
+
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function() {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        var data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data);
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send(); 
+        }
+
+        function sortFeats() {
+            // intentionally blank - will (probably) use later
+        }
+
+        function afterFetchData(data) {
+            feats = data
+            sortFeats();
+            let tBody = document.getElementById("featList");
+            feats.forEach(feat => {
+                let row = document.createElement("tr");
+                row.className = "row_" + feat.sector.toLowerCase();
+                tBody.append(row);
+                let completedCell = document.createElement("td");
+                row.append(completedCell);
+                completedCell.innerHTML = (feat.completed == 1 ? "&check;" : "");
+
+                let rewardCell = document.createElement("td");
+                row.append(rewardCell);
+                rewardCell.innerHTML = feat.reward;
+
+                let sectorCell = document.createElement("td");
+                row.append(sectorCell);
+                sectorCell.innerHTML = feat.sector;
+
+                let kindCell = document.createElement("td");
+                row.append(kindCell);
+                kindCell.innerHTML = feat.kind;
+
+                let summaryCell = document.createElement("td");
+                row.append(summaryCell);
+                summaryCell.innerHTML = feat.summary;
+
+                let descriptionCell = document.createElement("td");
+                row.append(descriptionCell);
+                descriptionCell.className = "description not-visible";
+                descriptionCell.innerHTML = feat.description;
+            });
+        }
+
+
+        function displayDescriptions() {
+            let elements = document.getElementsByClassName("description");
+            for (let element of elements) {
+                element.className = "description";
+            }
+        }
+    </script>
+    <body>
+        <h2>Feats</h2>
+        <div>
+            <a href="index.html">( back )</a>
+        </div>
+        <div style="padding-top: 1em;">
+            <table>
+                <header>
+                    <th>Comp</th>
+                    <th>Reward</th>
+                    <th>Sector</th>
+                    <th>Kind</th>
+                    <th>Summary</th>
+                    <th class="description not-visible">Description</th>
+                </header>
+                <tbody id="featList">
+                </tbody>
+            </table>
+            <div style="padding: 1em;">
+                <button onclick="displayDescriptions()">Display Descriptions</button>
+            </div>
+        </div>
+    </body>
+    <script lang="javascript">
+        fetchJSONFile("feats_data.json", afterFetchData);
+    </script>
+</html>

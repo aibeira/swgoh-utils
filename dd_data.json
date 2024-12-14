@@ -1,0 +1,226 @@
+[
+    {
+        "equippedStatus": "equipped",
+        "type": "Buff",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Solid Intel",
+        "description": "Whenever an ally is critically hit, they gain 8% Turn Meter, Advantage and Critical Damage Up for 1 turn.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Stat",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Voluntary Vanguard",
+        "description": "At the start of battle, the strongest ally gains Marked. Allies take 30% reduced damage as long as the Marked ally is alive (This effect doesn't stack).\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Health",
+        "cost": "1",
+        "rarity": "Rare",
+        "name": "Ruthless: Swiftness",
+        "description": "Whenever an enemy falls below 100% Health all allies gain 22% Turn Meter.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Buff",
+        "cost": "2",
+        "rarity": "Epic",
+        "name": "Certain Defeat",
+        "description": "The first time an enemy would be reduced to 50% Health, they are inflicted with Healing Immunity and Protection Disruption for 2 turns, which can't be evaded or resisted.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Health",
+        "cost": "1",
+        "rarity": "Epic",
+        "name": "Ruthless: Debilitation",
+        "description": "When an enemy falls below 100% Health they are inflicted with Healing Immunity and 2 stacks of Armor Shred, which can't be dispelled or resisted.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Health",
+        "cost": "1",
+        "rarity": "Epic",
+        "name": "Ruthless: Swiftness",
+        "description": "Whenever an enemy falls below 100% Health all allies gain 27% Turn Meter.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Buff",
+        "cost": "1",
+        "rarity": "Epic",
+        "name": "Entrenched",
+        "description": "At the start of encounter, all allies gain Protection Up (75%) until they are defeated, which can't be dispelled or prevented.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Critical Debuffs",
+        "description": "Enemy units gain Critical Chance Down, Critical Damage Down and Offense Down for 2 turns at the start of their turn, which can't be resisted.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Amplify Agony",
+        "description": "Whenever an ally inflicts a debuff on an enemy, they also deal 6.63% Max Health damage to that enemy. This damage can't defeat enemies.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Stat",
+        "cost": "3",
+        "rarity": "Rare",
+        "name": "Leader's Resolve",
+        "description": "The allied unit in the Leader slot gains 66% Max Health, 53% Max Protection, 40% Offense and 20% Speed.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Ability Exhaust",
+        "description": "Whenever an enemy gains 10 debuffs, they gain Ability Block for 1 turn, which can't be resisted or evaded.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Health",
+        "cost": "4",
+        "rarity": "Legendary",
+        "name": "Deadly Catalyst",
+        "description": "All allies ignore 30% of the enemy's Protection and gain 30% Offense (stacking) until the end of the encounter each time an enemy falls below 100%, 70%, and 40% Health.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Common",
+        "name": "Amplify Agony",
+        "description": "Whenever an ally inflicts a debuff on an enemy, they also deal 5.1% Max Health damage to that enemy. This damage can't defeat enemies.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Health",
+        "cost": "1",
+        "rarity": "Legendary",
+        "name": "Legendary Consumable Boost",
+        "description": "Stat increases from Booster consumables are increased by 100%. Booster and Medpac consumables grant +25% Speed. This does not stack with other Legendary Consumable Boost data disks.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Stat",
+        "cost": "2",
+        "rarity": "Epic",
+        "name": "Convor's Agility",
+        "description": "Allies gain 7% Evasion and 20% Turn Meter whenever they evade.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Stat",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Power",
+        "description": "Allied units gain 27% Offense and 22% Critical Damage.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Debuff",
+        "cost": "1",
+        "rarity": "Rare",
+        "name": "Caustic Emissions",
+        "description": "Enemy units gain two Damage over Time effects for 2 turns at the start of their turn, which can't be resisted.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Buff",
+        "cost": "1",
+        "rarity": "Common",
+        "name": "Entrenched",
+        "description": "At the start of encounter, all allies gain Protection Up (25%) until they are defeated, which can't be dispelled or prevented.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Buff",
+        "cost": "1",
+        "rarity": "Epic",
+        "name": "Spirited Speed",
+        "description": "Whenever an ally gains a buff, they also gain 3.3% Turn Meter.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Epic",
+        "name": "Stun Exhaust",
+        "description": "At the end of round, whenever an enemy is inflicted with 20 debuffs, they are Stunned for 1 turn.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Stat",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Vitality",
+        "description": "Allied units gain 35% Max Health and 28% Max Protection.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Damage",
+        "cost": "1",
+        "rarity": "Epic",
+        "name": "Invasive Endings",
+        "description": "The first time an ally is defeated, inflict all enemies with 5 stacks of Damage Over Time and Defense Down for 2 turns, which can't be evaded or resisted\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Debuff",
+        "cost": "1",
+        "rarity": "Common",
+        "name": "Ability Fatigue",
+        "description": "Whenever an enemy uses an ability, they are inflicted with a stack of Damage Over Time for 2 turns, which can't be evaded or resisted.\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Stat",
+        "cost": "2",
+        "rarity": "Common",
+        "name": "Power",
+        "description": "Allied units gain 20% Offense and 17% Critical Damage.\n"
+    },
+    {
+        "equippedStatus": "equipped",
+        "type": "Debuff",
+        "cost": "4",
+        "rarity": "Legendary",
+        "name": "War of Attrition",
+        "description": "Once per turn, whenever a debuff expires on an enemy, all enemies lose 4% Turn Meter. (This disk doesn't stack)\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Buff",
+        "cost": "3",
+        "rarity": "Rare",
+        "name": "Guard and Penetrate",
+        "description": "At the start of battle allied units gain 210% Defense. Whenever an ally is damaged by an enemy, they lose 7% of this Defense and gain 7 Defense Penetration. Whenever an enemy is defeated, all allies gain 50% Defense. (This effect doesn't stack)\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Debuff",
+        "cost": "2",
+        "rarity": "Rare",
+        "name": "Thermal Exhaust",
+        "description": "Whenever an enemy gains 5 debuffs, they gain 2 stacks of Thermal Detonator for 2 turns, which can't be resisted. (This effect doesn't stack.)\n"
+    },
+    {
+        "equippedStatus": "unequipped",
+        "type": "Debuff",
+        "cost": "4",
+        "rarity": "Legendary",
+        "name": "War of Attrition",
+        "description": "Once per turn, whenever a debuff expires on an enemy, all enemies lose 4% Turn Meter. (This disk doesn't stack)\n"
+    }
+]

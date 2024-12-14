@@ -1,0 +1,703 @@
+[
+    {
+        "day": "1",
+        "territory": "LS",
+        "planet": "Coruscant",
+        "image": "coruscant.jpeg",
+        "missions": [
+            { 
+                "x": 45,
+                "y": 25,
+                "title": "Fleet",
+                "team": [ 
+                    "Profundity",
+                    "Millenium Falcon",
+                    "Outrider",
+                    "Rebel Y-wing",
+                    "Phantom II",
+                    "Cassian's U-wing",
+                    "Raven's Claw",
+                    "Biggs's X-wing" 
+                ]
+            },
+            { 
+                "x": 402,
+                "y": 50,
+                "title": "Jedi vs. LV",
+                "team": [ 
+                    "JML",
+                    "JKL",
+                    "JKCK",
+                    "GMY",
+                    "Shaak Ti"
+                ]
+            },
+            { 
+                "x": 212,
+                "y": 157,
+                "title": "vs. Clone Cmdr",
+                "team": [ 
+                    "QA",
+                    "POW",
+                    "MQG",
+                    "Padme",
+                    "JKA"
+                ]
+            },
+            { 
+                "x": 53,
+                "y": 283,
+                "title": "vs. Clone Cmdr",
+                "team": [ 
+                    "JMK",
+                    "CAT",
+                    "Snips",
+                    "GK",
+                    "GAS"
+                ]
+            },
+            { 
+                "x": 516,
+                "y": 179,
+                "title": "Mace/Kit vs. Sidius",
+                "team": [ 
+                    "Mace",
+                    "Kit",
+                    "Kyle",
+                    "KAM",
+                    "Beq"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "1",
+        "territory": "MX",
+        "planet": "Corellia",
+        "image": "corellia.jpeg",
+        "missions": [
+            { 
+                "x": 476,
+                "y": 481,
+                "title": "Fleet",
+                "team": [ 
+                    "Executor",
+                    "Lando's Falcon",
+                    "Hound's Tooth",
+                    "Razor Crest",
+                    "Xanadu Blood",
+                    "IG-2000",
+                    "Slave I",
+                    "Punishing One"
+                ]
+            },
+            { 
+                "x": 433,
+                "y": 37,
+                "title": "Aphra vs. Imp Offcr",
+                "team": [ 
+                    "Aphra",
+                    "Darth Vader",
+                    "0-0-0",
+                    "BT-1",
+                    "HK-47"
+                ]
+            },
+            { 
+                "x": 333,
+                "y": 231,
+                "title": "vs. Imp Offcr",
+                "team": [ 
+                    "Boss Nass",
+                    "Jar Jar",
+                    "Tarpals",
+                    "Phalanx",
+                    "Boomadier"
+                ]
+            },
+            { 
+                "x": 502,
+                "y": 224,
+                "title": "Jabba vs Qi'ra",
+                "team": [ 
+                    "Jabba",
+                    "Boushh",
+                    "Krrs",
+                    "Skiff Lando",
+                    "Embo"
+                ]
+            },
+            { 
+                "x": 167,
+                "y": 472,
+                "title": "Qi'ra vs Veers",
+                "team": [ 
+                    "Qi'ra",
+                    "Young Han",
+                    "Dash",
+                    "Vandor Chewie",
+                    "Rey"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "1",
+        "territory": "DS",
+        "planet": "Mustafar",
+        "image": "mustafar.jpeg",
+        "missions": [
+            { 
+                "x": 564,
+                "y": 72,
+                "title": "Fleet",
+                "team": [ 
+                    "Executrix",
+                    "Scythe",
+                    "Vader",
+                    "Mk 6",
+                    "TIE Defender",
+                    "TIE Interceptor",
+                    "Imperial Shuttle",
+                    "TIE Fighter"
+                ]
+            },
+            { 
+                "x": 115,
+                "y": 93,
+                "title": "LV vs. JMK",
+                "team": [ 
+                    "Lord Vader"
+                ]
+            },
+            { 
+                "x": 358,
+                "y": 134,
+                "title": "vs. Geos",
+                "team": [ 
+                    "3rd",
+                    "GI",
+                    "Marrok",
+                    "7th",
+                    "5th"
+                ]
+            },
+            { 
+                "x": 20,
+                "y": 364,
+                "title": "vs. Nute",
+                "team": [ 
+                    "SLKR",
+                    "Hux",
+                    "FOST",
+                    "KRU",
+                    "Sith Trooper"
+                ]
+            },
+            { 
+                "x": 497,
+                "y": 337,
+                "title": "vs. Wat",
+                "team": [ 
+                    "SEE",
+                    "Malak",
+                    "Malgus",
+                    "Wat",
+                    "Nihilus"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "territory": "LS",
+        "planet": "Bracca",
+        "image": "bracca.jpeg",
+        "missions": [
+            { 
+                "x": 578,
+                "y": 123,
+                "title": "Fleet",
+                "team": [ 
+                    "Profundity",
+                    "Millenium Falcon",
+                    "Outrider",
+                    "Rebel Y-wing",
+                    "Phantom II",
+                    "Cassian's U-wing",
+                    "Raven's Claw",
+                    "Biggs's X-wing" 
+                ]
+            },
+            { 
+                "x": 297,
+                "y": 21,
+                "title": "Jedi vs. Ninth",
+                "team": [ 
+                    "JKL",
+                    "JML",
+                    "Kyle",
+                    "GMY",
+                    "Shaak Ti"
+                ]
+            },
+            { 
+                "x": 44,
+                "y": 44,
+                "title": "vs. Crosshair",
+                "team": [ 
+                    "Raddus",
+                    "Jyn",
+                    "Cassian",
+                    "K-2SO",
+                    "Pathfinder"
+                ]
+            },
+            { 
+                "x": 416,
+                "y": 96,
+                "title": "vs. Second Sister",
+                "team": [ 
+                    "JMK",
+                    "CAT",
+                    "Snips",
+                    "GK",
+                    "GAS"
+                ]
+            },
+            { 
+                "x": 46,
+                "y": 260,
+                "title": "Cere/Cal SM",
+                "team": [ 
+                    "Cere Junda",
+                    "Jedi Knight Cal Kestis"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "territory": "MX",
+        "planet": "Felucia",
+        "image": "felucia.jpeg",
+        "missions": [
+            { 
+                "x": 589,
+                "y": 31,
+                "title": "Fleet",
+                "team": [ 
+                    "Executor",
+                    "Razor Crest",
+                    "Hound's Tooth",
+                    "Xanadu Blood",
+                    "IG-2000",
+                    "Slave I",
+                    "Punishing One" 
+                ]
+            },
+            { 
+                "x": 37,
+                "y": 164,
+                "title": "Young Lando",
+                "team": [ 
+                    "???",
+                    "???",
+                    "???",
+                    "???",
+                    "Young Lando"
+                ]
+            },
+            { 
+                "x": 418,
+                "y": 200,
+                "title": "vs. Hondo",
+                "team": [ 
+                    "Leia Organa",
+                    "Captain Rex",
+                    "Drogan",
+                    "Chewpio",
+                    "Kanan"
+                ]
+            },
+            { 
+                "x": 509,
+                "y": 320,
+                "title": "Jabba",
+                "team": [ 
+                    "Jabba",
+                    "Boushh",
+                    "Krrs",
+                    "Embo",
+                    "Skiff Lando"
+                ]
+            },
+            { 
+                "x": 110,
+                "y": 434,
+                "title": "Hondo",
+                "team": [ 
+                    "RJT",
+                    "Hondo",
+                    "Rey",
+                    "R2",
+                    "BB-8"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "2",
+        "territory": "DS",
+        "planet": "Geonosis",
+        "image": "geonosis.jpeg",
+        "missions": [
+            { 
+                "x": 436,
+                "y": 421,
+                "title": "Fleet",
+                "team": [ 
+                    "???" 
+                ]
+            },
+            { 
+                "x": 441,
+                "y": 90,
+                "title": "vs. Nexu",
+                "team": [ 
+                    "Lord Vader",
+                    "Darth Vader",
+                    "Admiral Piett",
+                    "Maul",
+                    "Royal Guard"
+                ]
+            },
+            { 
+                "x": 37,
+                "y": 227,
+                "title": "vs. Reek",
+                "team": [ 
+                    "Reva",
+                    "GI",
+                    "5th",
+                    "7th",
+                    "9th"
+                ]
+            },
+            { 
+                "x": 326,
+                "y": 240,
+                "title": "Geos vs. Phoenix",
+                "team": [ 
+                    "GBA",
+                    "Geo Soldier",
+                    "Geo Spy",
+                    "Sun Fac",
+                    "Poggle the Lesser"
+                ]
+            },
+            { 
+                "x": 192,
+                "y": 411,
+                "title": "vs. Acklay",
+                "team": [ 
+                    "SLKR",
+                    "Hux",
+                    "FOST",
+                    "KRU",
+                    "Sith Trooper"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "territory": "LS",
+        "planet": "Kashyyyk",
+        "image": "kashyyyk.jpeg",
+        "missions": [
+            { 
+                "x": 548,
+                "y": 411,
+                "title": "Fleet",
+                "team": [ 
+                    "Profundity",
+                    "Millenium Falcon",
+                    "Outrider",
+                    "Rebel Y-wing",
+                    "Phantom II",
+                    "Cassian's U-wing",
+                    "Raven's Claw",
+                    "Biggs's X-wing" 
+                ]
+            },
+            { 
+                "x": 71,
+                "y": 34,
+                "title": "Wookiees",
+                "team": [ 
+                    "Tarful",
+                    "Chewy",
+                    "Vandor Chewy",
+                    "Veteren Chewy",
+                    "Zaalbar"
+                ]
+            },
+            { 
+                "x": 435,
+                "y": 64,
+                "title": "vs. Mara Jade",
+                "team": [ 
+                    "JKL",
+                    "JML",
+                    "Kyle",
+                    "GMY",
+                    "Shaak Ti"
+                ]
+            },
+            { 
+                "x": 89,
+                "y": 211,
+                "title": "Saw",
+                "team": [ 
+                    "Saw",
+                    "???",
+                    "???",
+                    "???",
+                    "???"
+                ]
+            },
+            { 
+                "x": 9,
+                "y": 376,
+                "title": "vs. Imp Offcr",
+                "team": [ 
+                    "JMK",
+                    "CAT",
+                    "Snips",
+                    "GK",
+                    "GAS"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "territory": "MX",
+        "planet": "Tatooine",
+        "image": "tatooine.jpeg",
+        "missions": [
+            { 
+                "x": 537,
+                "y": 336,
+                "title": "Fleet",
+                "team": [ 
+                    "Executor",
+                    "Razor Crest",
+                    "Hound's Tooth",
+                    "Xanadu Blood",
+                    "IG-2000",
+                    "Slave I",
+                    "Punishing One" 
+                ]
+            },
+            { 
+                "x": 74,
+                "y": 17,
+                "title": "vs. Sandtrooper",
+                "team": [ 
+                    "LO",
+                    "Drogan",
+                    "Chewpio",
+                    "Kanan",
+                    "Captain Rex"
+                ]
+            },
+            { 
+                "x": 290,
+                "y": 29,
+                "title": "Jabba",
+                "team": [ 
+                    "Jabba",
+                    "Boushh",
+                    "Krrs",
+                    "Embo",
+                    "Skiff Lando"
+                ]
+            },
+            { 
+                "x": 20,
+                "y": 279,
+                "title": "Fennec",
+                "team": [ 
+                    "RJT",
+                    "Fennec",
+                    "Rey",
+                    "R2",
+                    "BB-8"
+                ]
+            },
+            { 
+                "x": 163,
+                "y": 345,
+                "title": "BKM Mandos",
+                "team": [ 
+                    "BKM",
+                    "BAM",
+                    "IG-12"
+                ]
+            },
+            { 
+                "x": 352,
+                "y": 322,
+                "title": "Reva Shards",
+                "team": [ 
+                    "GI",
+                    "Reva",
+                    "5th",
+                    "7th",
+                    "Marrok"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "3",
+        "territory": "DS",
+        "planet": "Dathomir",
+        "image": "dathomir.jpeg",
+        "missions": [
+            { 
+                "x": 513,
+                "y": 54,
+                "title": "Aphra",
+                "team": [ 
+                    "Aphra",
+                    "BT-1",
+                    "0-0-0",
+                    "???",
+                    "???"
+                ]
+            },
+            { 
+                "x": 361,
+                "y": 156,
+                "title": "vs. Nightsisters",
+                "team": [ 
+                    "Traya",
+                    "SEE",
+                    "Malak",
+                    "Malgus",
+                    "Nihilus"
+                ]
+            },
+            { 
+                "x": 216,
+                "y": 380,
+                "title": "Empire vs. Nightsisters",
+                "team": [ 
+                    "Lord Vader",
+                    "Royal Guard",
+                    "Darth Vader",
+                    "9th",
+                    "DTMG?"
+                ]
+            },
+            { 
+                "x": 551,
+                "y": 262,
+                "title": "vs. Nightsisters",
+                "team": [ 
+                    "SLKR",
+                    "Hux",
+                    "FOST",
+                    "KRU",
+                    "Sith Trooper"
+                ]
+            },
+            { 
+                "x": 11,
+                "y": 360,
+                "title": "Nightsisters SM",
+                "team": [ 
+                    "Mother Talzin?",
+                    "Zombie?",
+                    "Merrin?",
+                    "Daka?",
+                    "Ventress?"
+                ]
+            }
+        ]
+    },
+    {
+        "day": "6",
+        "territory": "LB",
+        "planet": "Zeffo",
+        "image": "zeffo.jpeg",
+        "missions": [
+            { 
+                "x": 474,
+                "y": 410,
+                "title": "Fleet",
+                "team": [ 
+                    "Negotiator",
+                    "JKA",
+                    "Republic Y-wing",
+                    "Fives",
+                    "Snips",
+                    "Rex",
+                    "Plo",
+                    "Clone Sarg" 
+                ]
+            },
+            { 
+                "x": 442,
+                "y": 116,
+                "title": "UFU",
+                "team": [ 
+                    "Rey",
+                    "Fulcrum",
+                    "Ben Solo",
+                    "Cal Kestis",
+                    "Cere Junda"
+                ]
+            },
+            { 
+                "x": 45,
+                "y": 280,
+                "title": "Clonetroopers",
+                "team": [ 
+                    "Hunter",
+                    "Echo",
+                    "Tech",
+                    "Omega",
+                    "Wrecker"
+                ]
+            },
+            { 
+                "x": 352,
+                "y": 285,
+                "title": "vs. Tomb Guardian",
+                "team": [ 
+                    "Boss Nass",
+                    "Jar Jar",
+                    "Tarpals",
+                    "Boomadier",
+                    "Phalanx"
+                ]
+            },
+            { 
+                "x": 187,
+                "y": 410,
+                "title": "JKCK",
+                "team": [ 
+                    "JKCK",
+                    "GMK",
+                    "KAM",
+                    "Bastila",
+                    "Shaak Ti"
+                ]
+            }
+        ]
+    }
+]

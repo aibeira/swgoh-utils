@@ -1,0 +1,63 @@
+<html>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        div.tocContainer {
+
+        }
+    </style>
+    <script>
+        data = undefined;
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function() {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        var data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data);
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send(); 
+        }
+
+        function loadData() {
+
+            let currentDay = undefined;
+            let toc = undefined;
+            for (let d of data) {
+                let day = d.day;
+                if (!currentDay || currentDay != day) {
+                    let tocContainer = document.createElement("div");
+                    tocContainer.className = "tocContainer";
+                    let dayDiv = document.createElement("div");
+                    dayDiv.innerHTML = "Day " + day;
+                    tocContainer.append(dayDiv)
+                    toc = document.createElement("ul");
+                    toc.className = "dayList";
+                    tocContainer.append(toc);
+                    document.body.append(tocContainer);
+                    currentDay = day;
+                }
+                let territory = d.territory;
+                let li = document.createElement("li");
+                let a = document.createElement("a");
+                a.href = "territory.html?d=" + day + "&t=" + territory;
+                a.innerText = `${territory}`;
+                li.append(a);
+                toc.append(li);
+            }
+        }
+    </script>
+    <body>
+    </body>
+    <script>
+        fetchJSONFile("data.json", d => {
+            data = d;
+            loadData();
+        });
+    </script>
+</html>
