@@ -41,4 +41,5 @@ jobs:
         scp -r conquest root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
         scp -r tb root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
         scp -r index.html root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
+        scp -r favicon.ico root@swgoh.aibeira.com:/var/www/swgoh/www-root/utils
         ssh root@swgoh.aibeira.com "chown -R www-data:www-data /var/www/swgoh/www-root/utils"
