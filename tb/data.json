@@ -461,10 +461,10 @@
                 "title": "Saw",
                 "team": [ 
                     "Saw",
-                    "???",
-                    "???",
-                    "???",
-                    "???"
+                    "Luthen Rael",
+                    "Cassian Andor",
+                    "Captain Drogan",
+                    "Captain Rex"
                 ]
             },
             { 
@@ -506,11 +506,11 @@
                 "y": 17,
                 "title": "vs. Sandtrooper",
                 "team": [ 
-                    "Leia Organa",
-                    "Captain Drogan",
-                    "Threepio & Chewy",
-                    "Kanan Jarrus",
-                    "Captain Rex"
+                    "Ahsoka Tano",
+                    "Padawan Sabine Wren",
+                    "Huyang",
+                    "General Syndulla",
+                    "Ezra Bridger (Exile)"
                 ]
             },
             { 
@@ -620,11 +620,11 @@
                 "y": 360,
                 "title": "Nightsisters SM",
                 "team": [ 
-                    "Mother Talzin?",
-                    "Nightsister Zombie?",
-                    "Merrin?",
-                    "Old Daka?",
-                    "Asaaj Ventress?"
+                    "Great Mothers?",
+                    "Morgan Elspeth",
+                    "Merrin",
+                    "Night Trooper",
+                    "Death Trooper (Peridea)"
                 ]
             }
         ]
