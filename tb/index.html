@@ -31,8 +31,10 @@
 
             let currentDay = undefined;
             let toc = undefined;
-            for (let d of data) {
-                let day = d.day;
+            let planets = data.planets;
+            let teams = data.teams;
+            for (let dayTeams of teams) {
+                let day = dayTeams.day;
                 if (!currentDay || currentDay != day) {
                     let tocContainer = document.createElement("div");
                     tocContainer.className = "tocContainer";
@@ -45,11 +47,12 @@
                     document.body.append(tocContainer);
                     currentDay = day;
                 }
-                let territory = d.territory;
+                let planet = planets.filter(p => p.path == dayTeams.path && p.pathOrder == dayTeams.pathOrder)[0];
+                let planetName = planet.name;
                 let li = document.createElement("li");
                 let a = document.createElement("a");
-                a.href = "territory.html?d=" + day + "&t=" + territory;
-                a.innerText = `${territory}`;
+                a.href = "territory.html?day=" + day + "&path=" + dayTeams.path + "&pathOrder=" + dayTeams.pathOrder;
+                a.innerText = `${planetName}`;
                 li.append(a);
                 toc.append(li);
             }

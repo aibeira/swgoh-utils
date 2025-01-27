@@ -1,703 +1,1817 @@
-[
-    {
-        "day": "1",
-        "territory": "LS",
-        "planet": "Coruscant",
-        "image": "coruscant.jpeg",
-        "missions": [
-            { 
-                "x": 45,
-                "y": 25,
-                "title": "Fleet",
-                "team": [ 
-                    "Profundity",
-                    "Han's Millenium Falcon",
-                    "Outrider",
-                    "Rebel Y-wing",
-                    "Phantom II",
-                    "Cassian's U-wing",
-                    "Raven's Claw",
-                    "Biggs Darklighter's X-wing" 
-                ]
-            },
-            { 
-                "x": 402,
-                "y": 50,
-                "title": "Jedi vs. LV",
-                "team": [ 
-                    "Jedi Master Luke Skywalker",
-                    "Jedi Knight Luke Skywalker",
-                    "Jedi Knight Cal Kestis",
-                    "Grand Master Yoda",
-                    "Shaak Ti"
-                ]
-            },
-            { 
-                "x": 212,
-                "y": 157,
-                "title": "vs. Clone Cmdr",
-                "team": [ 
-                    "Queen Amidala",
-                    "Padawan Obi-Wan",
-                    "Master Qui-Gon",
-                    "Padmé Amidala",
-                    "Jedi Knight Anakin"
-                ]
-            },
-            { 
-                "x": 53,
-                "y": 283,
-                "title": "vs. Clone Cmdr",
-                "team": [ 
-                    "Jedi Master Kenobi",
-                    "Commander Ahsoka Tano",
-                    "Ahsoka Tano (Snips)",
-                    "General Kenobi",
-                    "General Skywalker"
-                ]
-            },
-            { 
-                "x": 516,
-                "y": 179,
-                "title": "Mace/Kit vs. Sidius",
-                "team": [ 
-                    "Mace Windu",
-                    "Kit Fisto",
-                    "Kyle Katarn",
-                    "Ki-Adi-Mundi",
-                    "Kelleran Beq"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "1",
-        "territory": "MX",
-        "planet": "Corellia",
-        "image": "corellia.jpeg",
-        "missions": [
-            { 
-                "x": 476,
-                "y": 481,
-                "title": "Fleet",
-                "team": [ 
-                    "Executor",
-                    "Lando's Millenium Falcon",
-                    "Hound's Tooth",
-                    "Razor Crest",
-                    "Xanadu Blood",
-                    "IG-2000",
-                    "Slave I",
-                    "Punishing One"
-                ]
-            },
-            { 
-                "x": 433,
-                "y": 37,
-                "title": "Aphra vs. Imp Offcr",
-                "team": [ 
-                    "Doctor Aphra",
-                    "Darth Vader",
-                    "0-0-0",
-                    "BT-1",
-                    "HK-47"
-                ]
-            },
-            { 
-                "x": 333,
-                "y": 231,
-                "title": "vs. Imp Offcr",
-                "team": [ 
-                    "Boss Nass",
-                    "Jar Jar Binks",
-                    "Captain Tarpals",
-                    "Gungan Phalanx",
-                    "Gungan Boomadier"
-                ]
-            },
-            { 
-                "x": 502,
-                "y": 224,
-                "title": "Jabba vs Qi'ra",
-                "team": [ 
-                    "Jabba the Hutt",
-                    "Boushh (Leia Organa)",
-                    "Krrsantan",
-                    "Skiff Guard (Lando Calrissian)",
-                    "Embo"
-                ]
-            },
-            { 
-                "x": 167,
-                "y": 472,
-                "title": "Qi'ra vs Veers",
-                "team": [ 
-                    "Qi'ra",
-                    "Young Han Solo",
-                    "Dash Rendar",
-                    "Vandor Chewbacca",
-                    "Rey"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "1",
-        "territory": "DS",
-        "planet": "Mustafar",
-        "image": "mustafar.jpeg",
-        "missions": [
-            { 
-                "x": 564,
-                "y": 72,
-                "title": "Fleet",
-                "team": [ 
-                    "Executrix",
-                    "Scythe",
-                    "TIE Advanced x1",
-                    "Mk VI Interceptor",
-                    "TIE Defender",
-                    "TIE/IN Interceptor",
-                    "Emperor's Shuttle",
-                    "Imperial TIE Fighter"
-                ]
-            },
-            { 
-                "x": 115,
-                "y": 93,
-                "title": "LV vs. JMK",
-                "team": [ 
-                    "Lord Vader"
-                ]
-            },
-            { 
-                "x": 358,
-                "y": 134,
-                "title": "vs. Geos",
-                "team": [ 
-                    "Reva",
-                    "Grand Inquisitor",
-                    "Marrok",
-                    "Seventh Sister",
-                    "Fifth Brother"
-                ]
-            },
-            { 
-                "x": 20,
-                "y": 364,
-                "title": "vs. Nute",
-                "team": [ 
-                    "Supreme Leader Kylo Ren",
-                    "General Hux",
-                    "First Order Stormtrooper",
-                    "Kylo Ren (Unmasked)",
-                    "Sith Trooper"
-                ]
-            },
-            { 
-                "x": 497,
-                "y": 337,
-                "title": "vs. Wat",
-                "team": [ 
-                    "Sith Eternal Emperor",
-                    "Darth Malak",
-                    "Darth Malgus",
-                    "Wat Tambor",
-                    "Darth Nihilus"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "2",
-        "territory": "LS",
-        "planet": "Bracca",
-        "image": "bracca.jpeg",
-        "missions": [
-            { 
-                "x": 578,
-                "y": 123,
-                "title": "Fleet",
-                "team": [ 
-                    "Profundity",
-                    "Han's Millenium Falcon",
-                    "Outrider",
-                    "Rebel Y-wing",
-                    "Phantom II",
-                    "Cassian's U-wing",
-                    "Raven's Claw",
-                    "Biggs Darklighter's X-wing" 
-                ]
-            },
-            { 
-                "x": 297,
-                "y": 21,
-                "title": "Jedi vs. Ninth",
-                "team": [ 
-                    "Jedi Knight Luke Skywalker",
-                    "Jedi Master Luke Skywalker",
-                    "Kyle Katarn",
-                    "Grand Master Yoda",
-                    "Shaak Ti"
-                ]
-            },
-            { 
-                "x": 44,
-                "y": 44,
-                "title": "vs. Crosshair",
-                "team": [ 
-                    "Admiral Raddus",
-                    "Jyn Erso",
-                    "Cassian Andor",
-                    "K-2SO",
-                    "Scarif Rebel Pathfinder"
-                ]
-            },
-            { 
-                "x": 416,
-                "y": 96,
-                "title": "vs. Second Sister",
-                "team": [ 
-                    "Jedi Master Kenobi",
-                    "Commander Ahsoka Tano",
-                    "Ahsoka Tano (Snips)",
-                    "General Kenobi",
-                    "General Skywalker"
-                ]
-            },
-            { 
-                "x": 46,
-                "y": 260,
-                "title": "Cere/Cal SM",
-                "team": [ 
-                    "Cere Junda",
-                    "Jedi Knight Cal Kestis"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "2",
-        "territory": "MX",
-        "planet": "Felucia",
-        "image": "felucia.jpeg",
-        "missions": [
-            { 
-                "x": 589,
-                "y": 31,
-                "title": "Fleet",
-                "team": [ 
-                    "Executor",
-                    "Razor Crest",
-                    "Hound's Tooth",
-                    "Xanadu Blood",
-                    "IG-2000",
-                    "Slave I",
-                    "Punishing One" 
-                ]
-            },
-            { 
-                "x": 37,
-                "y": 164,
-                "title": "Young Lando",
-                "team": [ 
-                    "???",
-                    "???",
-                    "???",
-                    "???",
-                    "Young Lando"
-                ]
-            },
-            { 
-                "x": 418,
-                "y": 200,
-                "title": "vs. Hondo",
-                "team": [ 
-                    "Leia Organa",
-                    "Captain Rex",
-                    "Captain Drogan",
-                    "Threepio & Chewie",
-                    "Kanan Jarrus"
-                ]
-            },
-            { 
-                "x": 509,
-                "y": 320,
-                "title": "Jabba",
-                "team": [ 
-                    "Jabba the Hutt",
-                    "Boushh (Leia Organa)",
-                    "Krrsantan",
-                    "Skiff Guard (Lando Calrissian)",
-                    "Embo"
-                ]
-            },
-            { 
-                "x": 110,
-                "y": 434,
-                "title": "Hondo",
-                "team": [ 
-                    "Rey (Jedi Training)",
-                    "Hondo Ohnaka",
-                    "Rey",
-                    "R2-D2",
-                    "BB-8"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "2",
-        "territory": "DS",
-        "planet": "Geonosis",
-        "image": "geonosis.jpeg",
-        "missions": [
-            { 
-                "x": 436,
-                "y": 421,
-                "title": "Fleet",
-                "team": [ 
-                    "???" 
-                ]
-            },
-            { 
-                "x": 441,
-                "y": 90,
-                "title": "vs. Nexu",
-                "team": [ 
-                    "Lord Vader",
-                    "Darth Vader",
-                    "Admiral Piett",
-                    "Maul",
-                    "Royal Guard"
-                ]
-            },
-            { 
-                "x": 37,
-                "y": 227,
-                "title": "vs. Reek",
-                "team": [ 
-                    "Reva",
-                    "Grand Inquisitor",
-                    "Fifth Brother",
-                    "Seventh Sister",
-                    "Ninth Sister"
-                ]
-            },
-            { 
-                "x": 326,
-                "y": 240,
-                "title": "Geos vs. Phoenix",
-                "team": [ 
-                    "Geonosian Brood Alpha",
-                    "Geonosian Soldier",
-                    "Geonosian Spy",
-                    "Sun Fac",
-                    "Poggle the Lesser"
-                ]
-            },
-            { 
-                "x": 192,
-                "y": 411,
-                "title": "vs. Acklay",
-                "team": [ 
-                    "Supreme Leader Kylo Ren",
-                    "General Hux",
-                    "First Order Stormtrooper",
-                    "Kylo Ren (Unmasked)",
-                    "Sith Trooper"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "3",
-        "territory": "LS",
-        "planet": "Kashyyyk",
-        "image": "kashyyyk.jpeg",
-        "missions": [
-            { 
-                "x": 548,
-                "y": 411,
-                "title": "Fleet",
-                "team": [ 
-                    "Profundity",
-                    "Han's Millenium Falcon",
-                    "Outrider",
-                    "Rebel Y-wing",
-                    "Phantom II",
-                    "Cassian's U-wing",
-                    "Raven's Claw",
-                    "Biggs Darklighter's X-wing" 
-                ]
-            },
-            { 
-                "x": 71,
-                "y": 34,
-                "title": "Wookiees",
-                "team": [ 
-                    "Tarfful",
-                    "Chewbacca",
-                    "Vandor Chewbacca",
-                    "Veteren Smuggler Chewbacca",
-                    "Zaalbar"
-                ]
-            },
-            { 
-                "x": 435,
-                "y": 64,
-                "title": "vs. Mara Jade",
-                "team": [ 
-                    "Jedi Knight Luke Skywalker",
-                    "Jedi Master Luke Skywalker",
-                    "Kyle Katarn",
-                    "Grand Master Yoda",
-                    "Shaak Ti"
-                ]
-            },
-            { 
-                "x": 89,
-                "y": 211,
-                "title": "Saw",
-                "team": [ 
-                    "Saw",
-                    "Luthen Rael",
-                    "Cassian Andor",
-                    "Captain Drogan",
-                    "Captain Rex"
-                ]
-            },
-            { 
-                "x": 9,
-                "y": 376,
-                "title": "vs. Imp Offcr",
-                "team": [ 
-                    "Jedi Master Kenobi",
-                    "Commander Ahsoka Tano",
-                    "Ahsoka Tano (Snips)",
-                    "General Kenobi",
-                    "General Skywalker"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "3",
-        "territory": "MX",
-        "planet": "Tatooine",
-        "image": "tatooine.jpeg",
-        "missions": [
-            { 
-                "x": 537,
-                "y": 336,
-                "title": "Fleet",
-                "team": [ 
-                    "Executor",
-                    "Razor Crest",
-                    "Hound's Tooth",
-                    "Xanadu Blood",
-                    "IG-2000",
-                    "Slave I",
-                    "Punishing One" 
-                ]
-            },
-            { 
-                "x": 74,
-                "y": 17,
-                "title": "vs. Sandtrooper",
-                "team": [ 
-                    "Ahsoka Tano",
-                    "Padawan Sabine Wren",
-                    "Huyang",
-                    "General Syndulla",
-                    "Ezra Bridger (Exile)"
-                ]
-            },
-            { 
-                "x": 290,
-                "y": 29,
-                "title": "Jabba",
-                "team": [ 
-                    "Jabba the Hutt",
-                    "Boushh (Leia Organa)",
-                    "Krrsantan",
-                    "Skiff Guard (Lando Calrissian)",
-                    "Embo"
-                ]
-            },
-            { 
-                "x": 20,
-                "y": 279,
-                "title": "Fennec",
-                "team": [ 
-                    "Rey (Jedi Training)",
-                    "Fennec Shand",
-                    "Rey",
-                    "R2-D2",
-                    "BB-8"
-                ]
-            },
-            { 
-                "x": 163,
-                "y": 345,
-                "title": "BKM Mandos",
-                "team": [ 
-                    "Bo-Katan (Mand'alor)",
-                    "The Mandalorian (Beskar Armor)",
-                    "IG-12 & Grogu"
-                ]
-            },
-            { 
-                "x": 352,
-                "y": 322,
-                "title": "Reva Shards",
-                "team": [ 
-                    "Grand Inquisitor",
-                    "Reva",
-                    "Fifth Brother",
-                    "Seventh Sister",
-                    "Marrok"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "3",
-        "territory": "DS",
-        "planet": "Dathomir",
-        "image": "dathomir.jpeg",
-        "missions": [
-            { 
-                "x": 513,
-                "y": 54,
-                "title": "Aphra",
-                "team": [ 
-                    "Aphra",
-                    "BT-1",
-                    "0-0-0",
-                    "???",
-                    "???"
-                ]
-            },
-            { 
-                "x": 361,
-                "y": 156,
-                "title": "vs. Nightsisters",
-                "team": [ 
-                    "Darth Traya",
-                    "Sith Eternal Emperor",
-                    "Darth Malak",
-                    "Darth Malgus",
-                    "Darth Nihilus"
-                ]
-            },
-            { 
-                "x": 216,
-                "y": 380,
-                "title": "Empire vs. Nightsisters",
-                "team": [ 
-                    "Lord Vader",
-                    "Royal Guard",
-                    "Darth Vader",
-                    "Ninth Sister",
-                    "Dark Trooper Moff Gideon?"
-                ]
-            },
-            { 
-                "x": 551,
-                "y": 262,
-                "title": "vs. Nightsisters",
-                "team": [ 
-                    "Supreme Leader Kylo Ren",
-                    "General Hux",
-                    "First Order Stormtrooper",
-                    "Kylo Ren (Unmasked)",
-                    "Sith Trooper"
-                ]
-            },
-            { 
-                "x": 11,
-                "y": 360,
-                "title": "Nightsisters SM",
-                "team": [ 
-                    "Great Mothers?",
-                    "Morgan Elspeth",
-                    "Merrin",
-                    "Night Trooper",
-                    "Death Trooper (Peridea)"
-                ]
-            }
-        ]
-    },
-    {
-        "day": "6",
-        "territory": "LB",
-        "planet": "Zeffo",
-        "image": "zeffo.jpeg",
-        "missions": [
-            { 
-                "x": 474,
-                "y": 410,
-                "title": "Fleet",
-                "team": [ 
-                    "Negotiator",
-                    "Anakin's Eta-2 Starfighter",
-                    "Republic Y-wing",
-                    "Umbaran Starfighter",
-                    "Ahsoka Tano's Jedi Starfigher",
-                    "Rex's ARC-170",
-                    "Plo Koon's Jedi Starfigher",
-                    "Clone Sergeant's ARC-170" 
-                ]
-            },
-            { 
-                "x": 442,
-                "y": 116,
-                "title": "UFU",
-                "team": [ 
-                    "Rey",
-                    "Ahsoka Tano (Fulcrum)",
-                    "Ben Solo",
-                    "Cal Kestis",
-                    "Cere Junda"
-                ]
-            },
-            { 
-                "x": 45,
-                "y": 280,
-                "title": "Clonetroopers",
-                "team": [ 
-                    "Hunter",
-                    "Echo",
-                    "Tech",
-                    "Omega",
-                    "Wrecker"
-                ]
-            },
-            { 
-                "x": 352,
-                "y": 285,
-                "title": "vs. Tomb Guardian",
-                "team": [ 
-                    "Boss Nass",
-                    "Jar Jar Binks",
-                    "Captain Tarpals",
-                    "Gungan Phalanx",
-                    "Gungan Boomadier"
-                ]
-            },
-            { 
-                "x": 187,
-                "y": 410,
-                "title": "Jedi Knight Cal Kestis",
-                "team": [ 
-                    "Jedi Knight Cal Kestis",
-                    "Grand Master Yoda",
-                    "Ki-Adi-Mundi",
-                    "Bastila Shan",
-                    "Shaak Ti"
-                ]
-            }
-        ]
-    }
-]
+{
+    "planets": [
+        {
+            "path": "DS",
+            "pathOrder": "1",
+            "name": "Mustafar",
+            "image": "ds_p1.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 443,
+                    "y": 124
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Lord Vader req.",
+                    "x": 103,
+                    "y": 138
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs Geonosians",
+                    "x": 285,
+                    "y": 166
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Nute Gunray",
+                    "x": 25,
+                    "y": 341
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Wat Tambor",
+                    "x": 387,
+                    "y": 323
+                }
+            ]
+        },
+        {
+            "path": "DS",
+            "pathOrder": "2",
+            "name": "Geonosis",
+            "image": "ds_p2.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 370,
+                    "y": 396
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Nexu",
+                    "x": 368,
+                    "y": 136
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs Reek",
+                    "x": 62,
+                    "y": 278
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Geos req.",
+                    "x": 236,
+                    "y": 250
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Acklay",
+                    "x": 180,
+                    "y": 379
+                }
+            ]
+        },
+        {
+            "path": "DS",
+            "pathOrder": "3",
+            "name": "Dathomir",
+            "image": "ds_p3.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Aphra req.",
+                    "x": 387,
+                    "y": 149
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Nightsisters",
+                    "x": 277,
+                    "y": 224
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Nightsisters req.",
+                    "x": 10,
+                    "y": 375
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Empire req.",
+                    "x": 166,
+                    "y": 394
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Nightsisters",
+                    "x": 422,
+                    "y": 304
+                }
+            ]
+        },
+        {
+            "path": "DS",
+            "pathOrder": "4",
+            "name": "Haven-class",
+            "image": "ds_p4.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "vs Kanan/Ezra",
+                    "x": 337,
+                    "y": 114
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Kanan/Ezra",
+                    "x": 121,
+                    "y": 148
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs 50R-T droids",
+                    "x": 4,
+                    "y": 180
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Inquisitors req.",
+                    "x": 83,
+                    "y": 318
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Kanan/Ezra",
+                    "x": 292,
+                    "y": 294
+                }
+            ]
+        },
+        {
+            "path": "DS",
+            "pathOrder": "5",
+            "name": "Malachor",
+            "image": "ds_p5.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "vs Phoenix",
+                    "x": 77,
+                    "y": 201
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Phoenix",
+                    "x": 394,
+                    "y": 274
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs Kanan/Ahsoka (Fulcrum)",
+                    "x": 24,
+                    "y": 351
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Inquisitors req.",
+                    "x": 310,
+                    "y": 403
+                }
+            ]
+        },
+        {
+            "path": "DS",
+            "pathOrder": "6",
+            "name": "Death Star",
+            "image": "ds_p6.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 443,
+                    "y": 103
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Darth Vader req.",
+                    "x": 347,
+                    "y": 99
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Iden Versio req.",
+                    "x": 21,
+                    "y": 300
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Rebel Officer",
+                    "x": 132,
+                    "y": 379
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Rebel Officer",
+                    "x": 377,
+                    "y": 334
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "1",
+            "name": "Coruscant",
+            "image": "ls_p1.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 54,
+                    "y": 105.5
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Jedi req.",
+                    "x": 323,
+                    "y": 125.5
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs Clone Commander",
+                    "x": 176.5,
+                    "y": 203
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Mace/Kit req.",
+                    "x": 410,
+                    "y": 223.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Clone Commander",
+                    "x": 59,
+                    "y": 301
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "2",
+            "name": "Bracca",
+            "image": "ls_p2.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 454.5,
+                    "y": 258
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Crosshair",
+                    "x": 50,
+                    "y": 197
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Jedi req. (vs Ninth)",
+                    "x": 241,
+                    "y": 181
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Second Sister",
+                    "x": 330.5,
+                    "y": 235.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "Cere / Cal req.",
+                    "x": 51,
+                    "y": 363
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "3",
+            "name": "Kashyyyk",
+            "image": "ls_p3.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 419,
+                    "y": 376.5
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Wookiees req.",
+                    "x": 60,
+                    "y": 89
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs Mara",
+                    "x": 336.5,
+                    "y": 111
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Saw req.",
+                    "x": 74.5,
+                    "y": 227
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Imperial Officer",
+                    "x": 13.5,
+                    "y": 350
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "3a",
+            "name": "Zeffo",
+            "image": "ls_p3_bonus.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 383,
+                    "y": 369
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "UFU req.",
+                    "x": 356.5,
+                    "y": 146.5
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Clonetroopers req.",
+                    "x": 59,
+                    "y": 269
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Tomb Guardians",
+                    "x": 289.5,
+                    "y": 273.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "JKCK req.",
+                    "x": 168,
+                    "y": 370.5
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "4",
+            "name": "Lothal",
+            "image": "ls_p4.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 37,
+                    "y": 119
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Imperial Officer",
+                    "x": 368.5,
+                    "y": 112
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Pheonix req.",
+                    "x": 69,
+                    "y": 361
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Jedi req.",
+                    "x": 212,
+                    "y": 398
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "5",
+            "name": "Ring of Kafrene",
+            "image": "ls_p5.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 392.5,
+                    "y": 147.5
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs Mob enforcer",
+                    "x": 111.5,
+                    "y": 81
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Cassian and K2S-O req.",
+                    "x": 274,
+                    "y": 76.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Imperial Officer",
+                    "x": 72,
+                    "y": 190
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Mara Jade",
+                    "x": 319,
+                    "y": 369
+                }
+            ]
+        },
+        {
+            "path": "LS",
+            "pathOrder": "6",
+            "name": "Scarif",
+            "image": "ls_p6.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 391,
+                    "y": 111
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Baze, Chirrut, Pathfinder req.",
+                    "x": 92.5,
+                    "y": 182
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Cassian, K2S-O, Pao req.",
+                    "x": 235,
+                    "y": 129
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs Imperial Troopers",
+                    "x": 88.5,
+                    "y": 422
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs Imperial Troopers",
+                    "x": 337,
+                    "y": 313.5
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "1",
+            "name": "Corellia",
+            "image": "mx_p1.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 371.5,
+                    "y": 398
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Aphra req.",
+                    "x": 334,
+                    "y": 62
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs. Imperial Officer",
+                    "x": 254.5,
+                    "y": 205.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Jabba req.",
+                    "x": 384,
+                    "y": 198.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "Qi'ra/Young Han req.",
+                    "x": 131.5,
+                    "y": 382
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "2",
+            "name": "Felucia",
+            "image": "mx_p2.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 420,
+                    "y": 40
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Young Lando req.",
+                    "x": 52.5,
+                    "y": 141
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs. Hondo",
+                    "x": 339.5,
+                    "y": 165
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Jabba req.",
+                    "x": 410.5,
+                    "y": 256.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "Hondo req.",
+                    "x": 109,
+                    "y": 346.5
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "3",
+            "name": "Tatooine",
+            "image": "mx_p3.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 444.5,
+                    "y": 395.5
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs. Imperial Officer",
+                    "x": 94,
+                    "y": 157
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Jabba req.",
+                    "x": 253.5,
+                    "y": 165.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Fennec req.",
+                    "x": 48.5,
+                    "y": 356
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "Bo'katan (Mand'alor) req. ",
+                    "x": 158.5,
+                    "y": 403
+                },
+                {
+                    "missionNumber": 5,
+                    "name": "Reva shards (GI req.)",
+                    "x": 299.5,
+                    "y": 381.5
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "4",
+            "name": "Kessel",
+            "image": "mx_p4.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 450,
+                    "y": 373
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs. Pike Sentinel",
+                    "x": 45.5,
+                    "y": 92.5
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs. Pike Sentinel",
+                    "x": 350.5,
+                    "y": 154.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Qi'ra/L3-37 req.",
+                    "x": 59.5,
+                    "y": 348
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "Jabba req.",
+                    "x": 283.5,
+                    "y": 299.5
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "4a",
+            "name": "Mandalore",
+            "image": "mx_p4_bonus.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 394,
+                    "y": 330
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs. Moff Gideon",
+                    "x": 358,
+                    "y": 99.5
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "DT Moff Gideon req.",
+                    "x": 290.5,
+                    "y": 228.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Bo-Katan (Mand'alor) req.",
+                    "x": 166,
+                    "y": 327
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "5",
+            "name": "Vandor",
+            "image": "mx_p5.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 399,
+                    "y": 322.5
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "vs. Imperial Officer",
+                    "x": 363.5,
+                    "y": 57
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "Young Han/Vandor Chewy req.",
+                    "x": 78,
+                    "y": 219.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "Jabba req.",
+                    "x": 276.5,
+                    "y": 184
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs. Enfys Nest",
+                    "x": 24,
+                    "y": 354.5
+                }
+            ]
+        },
+        {
+            "path": "MX",
+            "pathOrder": "6",
+            "name": "Hoth",
+            "image": "mx_p6.jpeg",
+            "missions": [
+                {
+                    "missionNumber": 0,
+                    "name": "Ships",
+                    "x": 429.5,
+                    "y": 62
+                },
+                {
+                    "missionNumber": 1,
+                    "name": "Jabba req.",
+                    "x": 48.5,
+                    "y": 156.5
+                },
+                {
+                    "missionNumber": 2,
+                    "name": "vs. Wampa",
+                    "x": 265.5,
+                    "y": 122.5
+                },
+                {
+                    "missionNumber": 3,
+                    "name": "vs. Sana Staros",
+                    "x": 386.5,
+                    "y": 248.5
+                },
+                {
+                    "missionNumber": 4,
+                    "name": "vs. Mob Enforcer",
+                    "x": 72,
+                    "y": 407.5
+                }
+            ]
+        }
+    ],
+    "teams": [
+        {
+            "day": 1,
+            "path": "DS",
+            "pathOrder": "1",
+            "teams": [
+                {
+                    "missionNumber": 0,
+                    "units": [
+                        "Executrix",
+                        "Scythe",
+                        "TIE Advanced x1",
+                        "Mk VI Interceptor",
+                        "TIE Defender",
+                        "TIE/IN Interceptor",
+                        "Emperor's Shuttle",
+                        "Imperial TIE Fighter"
+                    ]
+                },
+                {
+                    "missionNumber": 1,
+                    "units": [
+                        "Lord Vader"
+                    ]
+                },
+                {
+                    "missionNumber": 2,
+                    "units": [
+                        "Reva",
+                        "Grand Inquisitor",
+                        "Marrok (omi)",
+                        "Seventh Sister",
+                        "Fifth Brother"
+                    ]
+                },
+                {
+                    "missionNumber": 3,
+                    "units": [
+                        "Supreme Leader Kylo Ren",
+                        "General Hux",
+                        "First Order Stormtrooper",
+                        "Kylo Ren (Unmasked)",
+                        "Sith Trooper"
+                    ]
+                },
+                {
+                    "missionNumber": 4,
+                    "units": [
+                        "Sith Eternal Emperor",
+                        "Darth Malak",
+                        "Darth Malgus",
+                        "Wat Tambor",
+                        "Darth Nihilus"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 1,
+            "path": "MX",
+            "pathOrder": "1",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Lando's Millenium Falcon",
+                        "Hound's Tooth",
+                        "Razor Crest",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "Aphra req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "Doctor Aphra",
+                        "Darth Vader",
+                        "0-0-0",
+                        "BT-1",
+                        "HK-47"
+                    ]
+                },
+                {
+                    "missionName": "vs. Imperial Officer",
+                    "missionNumber": 2,
+                    "units": [
+                        "(team of) Gungans",
+                        "(team) AT Spectre"
+                    ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Jabba the Hutt",
+                        "Boushh (Leia Organa)",
+                        "Krrsantan",
+                        "Skiff Guard (Lando Calrissian)",
+                        "Embo"
+                    ]
+                },
+                {
+                    "missionName": "Qi'ra/Young Han req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Qi'ra",
+                        "Young Han Solo",
+                        "Dash Rendar",
+                        "Vandor Chewbacca",
+                        "Rey"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 1,
+            "path": "LS",
+            "pathOrder": "1",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "Jedi req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "Jedi Master Luke Skywalker",
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Knight Cal Kestis",
+                        "Grand Master Yoda",
+                        "Shaak Ti"
+                    ]
+                },
+                {
+                    "missionName": "vs Clone Commander",
+                    "missionNumber": 2,
+                    "units": [
+                        "Queen Amidala",
+                        "Padawan Obi-Wan",
+                        "Master Qui-Gon",
+                        "Padmé Amidala",
+                        "Jedi Knight Anakin"
+                    ]
+                },
+                {
+                    "missionName": "Mace/Kit req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Mace Windu",
+                        "Kit Fisto",
+                        "Kyle Katarn",
+                        "Ki-Adi-Mundi",
+                        "Kelleran Beq"
+                    ]
+                },
+                {
+                    "missionName": "vs Clone Commander",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "path": "DS",
+            "pathOrder": "2",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "???"
+                    ]
+                },
+                {
+                    "missionName": "vs Nexu",
+                    "missionNumber": 1,
+                    "units": [
+                        "Lord Vader",
+                        "Darth Vader",
+                        "Admiral Piett",
+                        "Maul",
+                        "Royal Guard"
+                    ]
+                },
+                {
+                    "missionName": "vs Reek",
+                    "missionNumber": 2,
+                    "units": [
+                        "Reva",
+                        "Grand Inquisitor",
+                        "Fifth Brother",
+                        "Seventh Sister",
+                        "Ninth Sister"
+                    ]
+                },
+                {
+                    "missionName": "Geos req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Geonosian Brood Alpha",
+                        "Geonosian Soldier",
+                        "Geonosian Spy",
+                        "Sun Fac",
+                        "Poggle the Lesser"
+                    ]
+                },
+                {
+                    "missionName": "vs Acklay",
+                    "missionNumber": 4,
+                    "units": [
+                        "Supreme Leader Kylo Ren",
+                        "General Hux",
+                        "First Order Stormtrooper",
+                        "Kylo Ren (Unmasked)",
+                        "Sith Trooper"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "path": "MX",
+            "pathOrder": "2",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Razor Crest",
+                        "Hound's Tooth",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "Young Lando req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "???",
+                        "Young Lando"
+                    ]
+                },
+                {
+                    "missionName": "vs. Hondo",
+                    "missionNumber": 2,
+                    "units": [
+                        "(team) Leia Organa",
+                        "(team) AT Spectre"
+                    ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Jabba the Hutt",
+                        "Boushh (Leia Organa)",
+                        "Krrsantan",
+                        "Skiff Guard (Lando Calrissian)",
+                        "Embo"
+                    ]
+                },
+                {
+                    "missionName": "Hondo req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Rey (Jedi Training)",
+                        "Hondo Ohnaka",
+                        "Rey",
+                        "R2-D2",
+                        "BB-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "path": "LS",
+            "pathOrder": "2",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "vs Crosshair",
+                    "missionNumber": 1,
+                    "units": [
+                        "Admiral Raddus",
+                        "Jyn Erso",
+                        "Cassian Andor",
+                        "K-2SO",
+                        "Scarif Rebel Pathfinder"
+                    ]
+                },
+                {
+                    "missionName": "Jedi req.",
+                    "missionNumber": 2,
+                    "units": [
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Master Luke Skywalker",
+                        "Kyle Katarn",
+                        "Grand Master Yoda",
+                        "Shaak Ti"
+                    ]
+                },
+                {
+                    "missionName": "vs Second Sister",
+                    "missionNumber": 3,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                },
+                {
+                    "missionName": "Cere / Cal req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Cere Junda",
+                        "Jedi Knight Cal Kestis"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "path": "DS",
+            "pathOrder": "3",
+            "teams": [
+                {
+                    "missionName": "Aphra req.",
+                    "missionNumber": 0,
+                    "units": [
+                        "Aphra",
+                        "BT-1",
+                        "0-0-0",
+                        "???",
+                        "???"
+                    ]
+                },
+                {
+                    "missionName": "vs Nightsisters",
+                    "missionNumber": 1,
+                    "units": [
+                        "Darth Traya",
+                        "Sith Eternal Emperor",
+                        "Darth Malak",
+                        "Darth Malgus",
+                        "Darth Nihilus"
+                    ]
+                },
+                {
+                    "missionName": "Nightsisters req.",
+                    "missionNumber": 2,
+                    "units": [
+                        "Great Mothers?",
+                        "Morgan Elspeth",
+                        "Merrin",
+                        "Night Trooper",
+                        "Death Trooper (Peridea)"
+                    ]
+                },
+                {
+                    "missionName": "Empire req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Lord Vader",
+                        "Royal Guard",
+                        "Darth Vader",
+                        "Ninth Sister",
+                        "Dark Trooper Moff Gideon?"
+                    ]
+                },
+                {
+                    "missionName": "vs Nightsisters",
+                    "missionNumber": 4,
+                    "units": [
+                        "Supreme Leader Kylo Ren",
+                        "General Hux",
+                        "First Order Stormtrooper",
+                        "Kylo Ren (Unmasked)",
+                        "Sith Trooper"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "path": "MX",
+            "pathOrder": "3",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Razor Crest",
+                        "Hound's Tooth",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "vs. Imperial Officer",
+                    "missionNumber": 1,
+                    "units": [
+                        "Ahsoka Tano",
+                        "Padawan Sabine Wren",
+                        "Huyang",
+                        "General Syndulla",
+                        "Ezra Bridger (Exile)"
+                    ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 2,
+                    "units": [
+                        "Jabba the Hutt",
+                        "Boushh (Leia Organa)",
+                        "Krrsantan",
+                        "Skiff Guard (Lando Calrissian)",
+                        "Embo"
+                    ]
+                },
+                {
+                    "missionName": "Fennec req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Rey (Jedi Training)",
+                        "Fennec Shand",
+                        "Rey",
+                        "R2-D2",
+                        "BB-8"
+                    ]
+                },
+                {
+                    "missionName": "Bo'katan (Mand'alor) req. ",
+                    "missionNumber": 4,
+                    "units": [
+                        "Bo-Katan (Mand'alor)",
+                        "The Mandalorian (Beskar Armor)",
+                        "IG-12 & Grogu"
+                    ]
+                },
+                {
+                    "missionName": "Reva shards (GI req.)",
+                    "missionNumber": 5,
+                    "units": [
+                        "Grand Inquisitor",
+                        "Reva",
+                        "Fifth Brother",
+                        "Seventh Sister",
+                        "Marrok (omi)"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "path": "LS",
+            "pathOrder": "3",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "Wookiees req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "Tarfful",
+                        "Chewbacca",
+                        "Vandor Chewbacca",
+                        "Veteren Smuggler Chewbacca",
+                        "Zaalbar"
+                    ]
+                },
+                {
+                    "missionName": "vs Mara",
+                    "missionNumber": 2,
+                    "units": [
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Master Luke Skywalker",
+                        "Kyle Katarn",
+                        "Grand Master Yoda",
+                        "Shaak Ti"
+                    ]
+                },
+                {
+                    "missionName": "Saw req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Saw",
+                        "Luthen Rael",
+                        "Cassian Andor",
+                        "Captain Drogan",
+                        "Captain Rex"
+                    ]
+                },
+                {
+                    "missionName": "vs Imperial Officer",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "path": "DS",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 0,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs 50R-T droids",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Inquisitors req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Reva",
+                        "Grand Inquisitor",
+                        "Seventh Sister",
+                        "Fifth Brother",
+                        "Marrok (omi)"
+                    ]
+                },
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 4,
+                    "units": [ "???" ]
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "path": "MX",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Razor Crest",
+                        "Hound's Tooth",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "vs. Pike Sentinel",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs. Pike Sentinel",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Qi'ra/L3-37 req.",
+                    "missionNumber": 3,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jabba",
+                        "Boushh (Leia Organa)",
+                        "Krrsantan",
+                        "Boba Fett",
+                        "Han Solo"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "path": "LS",
+            "pathOrder": "3",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "Wookiees req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "Tarfful",
+                        "Chewbacca",
+                        "Vandor Chewbacca",
+                        "Veteren Smuggler Chewbacca",
+                        "Zaalbar"
+                    ]
+                },
+                {
+                    "missionName": "vs Mara",
+                    "missionNumber": 2,
+                    "units": [
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Master Luke Skywalker",
+                        "Kyle Katarn",
+                        "Grand Master Yoda",
+                        "Shaak Ti"
+                    ]
+                },
+                {
+                    "missionName": "Saw req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Saw",
+                        "Luthen Rael",
+                        "Cassian Andor",
+                        "Captain Drogan",
+                        "Captain Rex"
+                    ]
+                },
+                {
+                    "missionName": "vs Imperial Officer",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "path": "DS",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 0,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs 50R-T droids",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Inquisitors req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Reva",
+                        "Grand Inquisitor",
+                        "Seventh Sister",
+                        "Fifth Brother",
+                        "Marrok (omi)"
+                    ]
+                },
+                {
+                    "missionName": "vs Kanan/Ezra",
+                    "missionNumber": 4,
+                    "units": [ "???" ]
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "path": "MX",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Razor Crest",
+                        "Hound's Tooth",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "vs. Pike Sentinel",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs. Pike Sentinel",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Qi'ra/L3-37 req.",
+                    "missionNumber": 3,
+                    "units": [ "Qi'ra", "L3-37", "???" ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jabba",
+                        "Boushh (Leia Organa)",
+                        "Krrsantan",
+                        "Boba Fett",
+                        "Han Solo"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "path": "LS",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "vs Imperial Officer",
+                    "missionNumber": 1,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                },
+                {
+                    "missionName": "Pheonix req.",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Jedi req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Master Luke Skywalker",
+                        "Kyle Katarn",
+                        "Padawan Obi-wan",
+                        "Master Qui-gon"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "path": "DS",
+            "pathOrder": "5",
+            "teams": [
+                {
+                    "missionName": "vs Phoenix",
+                    "missionNumber": 0,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs Phoenix",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs Kanan/Ahsoka (Fulcrum)",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Inquisitors req.",
+                    "missionNumber": 3,
+                    "units": [ "???" ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "path": "MX",
+            "pathOrder": "5",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Executor",
+                        "Razor Crest",
+                        "Hound's Tooth",
+                        "Xanadu Blood",
+                        "IG-2000",
+                        "Slave I",
+                        "Punishing One"
+                    ]
+                },
+                {
+                    "missionName": "vs. Imperial Officer",
+                    "missionNumber": 1,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Young Han/Vandor Chewy req.",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Jabba req.",
+                    "missionNumber": 3,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "vs. Enfys Nest",
+                    "missionNumber": 4,
+                    "units": [ "???" ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "path": "LS",
+            "pathOrder": "4",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Profundity",
+                        "Han's Millenium Falcon",
+                        "Outrider",
+                        "Rebel Y-wing",
+                        "Phantom II",
+                        "Cassian's U-wing",
+                        "Raven's Claw",
+                        "Biggs Darklighter's X-wing"
+                    ]
+                },
+                {
+                    "missionName": "vs Imperial Officer",
+                    "missionNumber": 1,
+                    "units": [
+                        "Jedi Master Kenobi",
+                        "Commander Ahsoka Tano",
+                        "Ahsoka Tano (Snips)",
+                        "General Kenobi",
+                        "General Skywalker"
+                    ]
+                },
+                {
+                    "missionName": "Pheonix req.",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Jedi req.",
+                    "missionNumber": 3,
+                    "units": [
+                        "Jedi Knight Luke Skywalker",
+                        "Jedi Master Luke Skywalker",
+                        "Kyle Katarn",
+                        "Padawan Obi-wan",
+                        "Master Qui-gon"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "path": "LS",
+            "pathOrder": "3a",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Negotiator",
+                        "Anakin's Eta-2 Starfighter",
+                        "Republic Y-wing",
+                        "Umbaran Starfighter",
+                        "Ahsoka Tano's Jedi Starfigher",
+                        "Rex's ARC-170",
+                        "Plo Koon's Jedi Starfigher",
+                        "Clone Sergeant's ARC-170"
+                    ]
+                },
+                {
+                    "missionName": "UFU req.",
+                    "missionNumber": 1,
+                    "units": [
+                        "Rey",
+                        "Ahsoka Tano (Fulcrum)",
+                        "Ben Solo / Rey (Jedi Training)",
+                        "Cal Kestis",
+                        "Cere Junda"
+                    ]
+                },
+                {
+                    "missionName": "Clonetroopers req.",
+                    "missionNumber": 2,
+                    "units": [
+                        "Hunter",
+                        "Echo",
+                        "Tech",
+                        "Omega (omi)",
+                        "Wrecker"
+                    ]
+                },
+                {
+                    "missionName": "vs Tomb Guardians",
+                    "missionNumber": 3,
+                    "units": [
+                        "(team) Gungans",
+                        "(team) Leia Organa",
+                        "(team) AT Spectre"
+                    ]
+                },
+                {
+                    "missionName": "JKCK req.",
+                    "missionNumber": 4,
+                    "units": [
+                        "Jedi Knight Cal Kestis",
+                        "KAM",
+                        "GMY",
+                        "Shaak Ti",
+                        "Bastila Shan"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "path": "MX",
+            "pathOrder": "4a",
+            "teams": [
+                {
+                    "missionName": "Ships",
+                    "missionNumber": 0,
+                    "units": [
+                        "Leviathan",
+                        "Mark VI Interceptor",
+                        "B-28 Extinction-class Bomber",
+                        "Gauntlet Starfighter",
+                        "Fury-class Interceptor",
+                        "TIE Advanced x1",
+                        "Sith Fighter",
+                        "Scimitar",
+                        "TIE Dagger"
+                    ]
+                    },
+                {
+                    "missionName": "vs. Moff Gideon",
+                    "missionNumber": 1,
+                    "units": [
+                        "Reva",
+                        "Grand Inquisitor",
+                        "Seventh Sister",
+                        "Fifth Brother",
+                        "Marrok (omi)"
+                    ]
+                },
+                {
+                    "missionName": "DT Moff Gideon req.",
+                    "missionNumber": 2,
+                    "units": [ "???" ]
+                },
+                {
+                    "missionName": "Bo-Katan (Mand'alor) req.",
+                    "missionNumber": 3,
+                    "units": [ "???" ]
+                }
+            ]
+        }
+    ]
+}
