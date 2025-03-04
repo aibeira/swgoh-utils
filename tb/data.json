@@ -32,7 +32,7 @@
                 },
                 {
                     "missionNumber": 4,
-                    "name": "vs Wat Tambor",
+                    "name": "vs Wat Tambor (2x Droideka)",
                     "x": 387,
                     "y": 323
                 }
@@ -787,21 +787,21 @@
                 {
                     "missionNumber": 3,
                     "units": [
-                        "Supreme Leader Kylo Ren",
-                        "General Hux",
-                        "First Order Stormtrooper",
-                        "Kylo Ren (Unmasked)",
-                        "Sith Trooper"
+                        "Dark Trooper Moff Gideon",
+                        "Scout Trooper",
+                        "Night Trooper",
+                        "Death Trooper (Peridea)",
+                        "Captain Enoch"
                     ]
                 },
                 {
                     "missionNumber": 4,
                     "units": [
-                        "Sith Eternal Emperor",
-                        "Darth Malak",
-                        "Darth Malgus",
-                        "Wat Tambor",
-                        "Darth Nihilus"
+                        "Supreme Leader Kylo Ren",
+                        "General Hux",
+                        "Rey (Dark Side Vision)",
+                        "Kylo Ren (Unmasked)",
+                        "Sith Trooper"
                     ]
                 }
             ]
