@@ -1794,17 +1794,20 @@
                     "missionName": "vs. Moff Gideon",
                     "missionNumber": 1,
                     "units": [
-                        "Reva",
-                        "Grand Inquisitor",
-                        "Seventh Sister",
-                        "Fifth Brother",
-                        "Marrok (omi)"
+                        "(team) Reva inquisitors (3, GI, 7, 5, Marrok)",
+                        "(team) Gungans"
                     ]
                 },
                 {
                     "missionName": "DT Moff Gideon req.",
                     "missionNumber": 2,
-                    "units": [ "???" ]
+                    "units": [ 
+                        "Dark Trooper Moff Gideon",
+                        "Scout Trooper",
+                        "Night Trooper",
+                        "Captain Enoch",
+                        "Stormtrooper"
+                    ]
                 },
                 {
                     "missionName": "Bo-Katan (Mand'alor) req.",
