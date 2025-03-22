@@ -1468,7 +1468,13 @@
                 {
                     "missionName": "vs Kanan/Ezra",
                     "missionNumber": 0,
-                    "units": [ "???" ]
+                    "units": [
+                        "Dark Trooper Moff Gideon",
+                        "Captain Enoch",
+                        "Night Trooper",
+                        "Death Trooper (Peridea)",
+                        "Scout Trooper"
+                    ]
                 },
                 {
                     "missionName": "vs Kanan/Ezra",
