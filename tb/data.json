@@ -1121,10 +1121,10 @@
                     "missionNumber": 0,
                     "units": [
                         "Aphra",
-                        "BT-1",
-                        "0-0-0",
-                        "???",
-                        "???"
+                        "Darth Revan",
+                        "Starkiller",
+                        "Darth Bane",
+                        "Maul"
                     ]
                 },
                 {
@@ -1479,7 +1479,12 @@
                 {
                     "missionName": "vs Kanan/Ezra",
                     "missionNumber": 1,
-                    "units": [ "???" ]
+                    "units": [ 
+                        "Lord Vader",
+                        "Maul",
+                        "Admiral Piett",
+                        ""
+                     ]
                 },
                 {
                     "missionName": "vs 50R-T droids",
