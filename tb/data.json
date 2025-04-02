@@ -1013,16 +1013,22 @@
                     "missionName": "Young Lando req.",
                     "missionNumber": 1,
                     "units": [
-                        "???",
-                        "Young Lando"
+                        "Ahoska Tano",
+                        "Young Lando",
+                        "Ezra Bridger (Exile)",
+                        "Padawan Sabine Wren",
+                        "Huyang"
                     ]
                 },
                 {
                     "missionName": "vs. Hondo",
                     "missionNumber": 2,
                     "units": [
-                        "(team) Leia Organa",
-                        "(team) AT Spectre"
+                        "Leia Organa",
+                        "Captain Drogan",
+                        "Threepio and Chewie",
+                        "Captain Rex",
+                        "Old Ben"
                     ]
                 },
                 {
