@@ -942,7 +942,14 @@
                     "missionName": "Ships",
                     "missionNumber": 0,
                     "units": [
-                        "???"
+                        "Leviathan",
+                        "B-28 Extinction-class Bomber",
+                        "Fury-class Interceptor",
+                        "Sith Fighter",
+                        "Mk VI Interceptor",
+                        "TIE Dagger",
+                        "Scimitar",
+                        "TIE Advanced x1"
                     ]
                 },
                 {
